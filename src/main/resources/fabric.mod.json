@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "orforged",
+	"version": "${version}",
+	"name": "ORForged",
+	"description": "ORForged allows users to bring the wonders of Origin Realms into Survival and Creative.",
+	"authors": [
+		"Meh19 for Code",
+		"Origin Realms Team for Assets"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/orforged/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.meh.forged.ForgedMod"
+		],
+		"client": [
+			"net.meh.forged.ForgedModClient"
+		],
+		"fabric-datagen": [
+			"net.meh.forged.ForgedModDataGenerator"
+		]
+	},
+	"mixins": [
+		"orforged.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
