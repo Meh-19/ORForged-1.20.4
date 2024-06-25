@@ -23,6 +23,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
     public static final Block PLATINUM_BRICKS = registerBlock("platinum_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+    public static final Block PLATINUM_PILLAR = registerBlock("platinum_pillar",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
     public static final Block PLATINUM_ORE = registerBlock("platinum_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F, 3.0F).sounds(BlockSoundGroup.STONE)));
     public static final Block DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
@@ -31,6 +33,7 @@ public class ModBlocks {
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(PLATINUM_BLOCK);
         entries.add(PLATINUM_BRICKS);
+        entries.add(PLATINUM_PILLAR);
         entries.add(PLATINUM_ORE);
         entries.add(DEEPSLATE_PLATINUM_ORE);
     }

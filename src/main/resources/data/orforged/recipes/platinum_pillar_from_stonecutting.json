@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "orforged:platinum_block"
+  },
+  "result": "orforged:platinum_pillar",
+  "count": 1
+}

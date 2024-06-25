@@ -3,7 +3,14 @@
 
   "block.orforged.platinum_block": "Block of Platinum",
   "block.orforged.platinum_bricks": "Platinum Bricks",
+  "block.orforged.platinum_pillar": "Platinum Pillar",
   "block.orforged.platinum_ore": "Platinum Ore",
-  "block.orforged.deepslate_platinum_ore": "Deepslate Platinum Ore"
+  "block.orforged.deepslate_platinum_ore": "Deepslate Platinum Ore",
+
+  "item.orforged.platinum_sword": "Platinum Sword",
+  "item.orforged.platinum_pickaxe": "Platinum Pickaxe",
+  "item.orforged.platinum_axe": "Platinum Axe",
+  "item.orforged.platinum_shovel": "Platinum Shovel",
+  "item.orforged.platinum_hoe": "Platinum Hoe"
 
 }

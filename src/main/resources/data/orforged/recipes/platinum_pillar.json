@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:platinum_block"
+    }
+  },
+  "result": {
+    "item": "orforged:platinum_pillar",
+    "count": 2
+  }
+}
