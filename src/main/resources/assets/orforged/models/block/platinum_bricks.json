@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "orforged:block/platinum_bricks"
+  }
+}
+

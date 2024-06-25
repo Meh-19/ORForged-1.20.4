@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ingredient",
+  "ingredients": [
+    {
+      "item": "orforged:platinum_block"
+    }
+  ],
+  "result": {
+    "item": "orforged:platinum",
+    "count": 9
+  }
+}

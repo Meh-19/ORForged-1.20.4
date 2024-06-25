@@ -2,6 +2,8 @@ package net.meh.forged;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.meh.forged.block.ModBlocks;
+import net.meh.forged.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,8 @@ public class ForgedMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

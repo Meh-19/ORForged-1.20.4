@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "orforged:platinum"
+    },
+    "title": {
+      "text": "Shiny Find"
+    },
+    "description": {
+      "text": "Obtained Platinum"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "platinum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "orforged:platinum"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}
