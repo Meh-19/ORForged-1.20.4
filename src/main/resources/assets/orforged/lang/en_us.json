@@ -1,13 +1,20 @@
 {
   "item.orforged.platinum": "Platinum",
+  "item.orforged.ruby": "Ruby",
 
-  "itemGroup.platinum": "Platinum Group",
+  "itemgroup.forged": "ORForged",
 
   "block.orforged.platinum_block": "Block of Platinum",
   "block.orforged.platinum_bricks": "Platinum Bricks",
   "block.orforged.platinum_pillar": "Platinum Pillar",
   "block.orforged.platinum_ore": "Platinum Ore",
   "block.orforged.deepslate_platinum_ore": "Deepslate Platinum Ore",
+
+  "block.orforged.ruby_block": "Block of Ruby",
+  "block.orforged.ruby_bricks": "Ruby Bricks",
+  "block.orforged.ruby_pillar": "Ruby Pillar",
+  "block.orforged.ruby_ore": "Ruby Ore",
+  "block.orforged.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
   "item.orforged.platinum_sword": "Platinum Sword",
   "item.orforged.platinum_pickaxe": "Platinum Pickaxe",
@@ -19,6 +26,15 @@
   "item.orforged.platinum_helmet": "Platinum Helmet",
   "item.orforged.platinum_chestplate": "Platinum Chestplate",
   "item.orforged.platinum_leggings": "Platinum Leggings",
-  "item.orforged.platinum_boots": "Platinum Boots"
+  "item.orforged.platinum_boots": "Platinum Boots",
+
+  "block.orforged.maple_log": "Maple Log",
+  "block.orforged.stripped_maple_log": "Stripped Maple Log",
+  "block.orforged.maple_wood": "Maple Wood",
+  "block.orforged.stripped_maple_wood": "Stripped Maple Wood",
+
+  "block.orforged.orange_maple_leaves": "Orange Maple Leaves",
+  "block.orforged.red_maple_leaves": "Red Maple Leaves",
+  "block.orforged.maple_planks": "Orange Maple Planks"
 
 }

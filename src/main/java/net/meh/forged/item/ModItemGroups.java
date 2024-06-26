@@ -12,9 +12,9 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup PLATINUM_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(ForgedMod.MOD_ID, "platinum"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.platinum"))
+    public static final ItemGroup FORGED_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ForgedMod.MOD_ID, "forged"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.forged"))
                     .icon(() -> new ItemStack(ModItems.PLATINUM)).entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.PLATINUM_BLOCK);
@@ -35,6 +35,22 @@ public class ModItemGroups {
                         entries.add(ModItems.PLATINUM_CHESTPLATE);
                         entries.add(ModItems.PLATINUM_LEGGINGS);
                         entries.add(ModItems.PLATINUM_BOOTS);
+
+                        entries.add(ModItems.RUBY);
+
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_BRICKS);
+                        entries.add(ModBlocks.RUBY_PILLAR);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+
+                        entries.add(ModBlocks.MAPLE_LOG);
+                        entries.add(ModBlocks.STRIPPED_MAPLE_LOG);
+                        entries.add(ModBlocks.MAPLE_WOOD);
+                        entries.add(ModBlocks.STRIPPED_MAPLE_WOOD);
+                        entries.add(ModBlocks.MAPLE_PLANKS);
+                        entries.add(ModBlocks.ORANGE_MAPLE_LEAVES);
+                        entries.add(ModBlocks.RED_MAPLE_LEAVES);
 
                     }).build());
 

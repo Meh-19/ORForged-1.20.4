@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ingredient",
+  "ingredients": [
+    {
+      "item": "orforged:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "orforged:ruby",
+    "count": 9
+  }
+}

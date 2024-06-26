@@ -2,6 +2,7 @@ package net.meh.forged.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.meh.forged.block.ModBlocks;
 import net.meh.forged.item.ModItems;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
@@ -21,5 +22,13 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PLATINUM_CHESTPLATE)
                 .add(ModItems.PLATINUM_LEGGINGS)
                 .add(ModItems.PLATINUM_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.MAPLE_PLANKS.asItem());
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.MAPLE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_MAPLE_LOG.asItem())
+                .add(ModBlocks.MAPLE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_MAPLE_WOOD.asItem());
     }
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "orforged:ruby_block"
+  },
+  "result": "orforged:ruby_pillar",
+  "count": 1
+}
