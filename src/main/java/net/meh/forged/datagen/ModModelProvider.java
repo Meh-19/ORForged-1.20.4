@@ -7,6 +7,7 @@ import net.meh.forged.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -25,5 +26,16 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.PLATINUM, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.PLATINUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PLATINUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PLATINUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PLATINUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PLATINUM_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PLATINUM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PLATINUM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PLATINUM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PLATINUM_BOOTS));
     }
 }

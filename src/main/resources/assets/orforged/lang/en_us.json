@@ -1,6 +1,8 @@
 {
   "item.orforged.platinum": "Platinum",
 
+  "itemGroup.platinum": "Platinum Group",
+
   "block.orforged.platinum_block": "Block of Platinum",
   "block.orforged.platinum_bricks": "Platinum Bricks",
   "block.orforged.platinum_pillar": "Platinum Pillar",
@@ -11,6 +13,12 @@
   "item.orforged.platinum_pickaxe": "Platinum Pickaxe",
   "item.orforged.platinum_axe": "Platinum Axe",
   "item.orforged.platinum_shovel": "Platinum Shovel",
-  "item.orforged.platinum_hoe": "Platinum Hoe"
+  "item.orforged.platinum_hoe": "Platinum Hoe",
+
+
+  "item.orforged.platinum_helmet": "Platinum Helmet",
+  "item.orforged.platinum_chestplate": "Platinum Chestplate",
+  "item.orforged.platinum_leggings": "Platinum Leggings",
+  "item.orforged.platinum_boots": "Platinum Boots"
 
 }
