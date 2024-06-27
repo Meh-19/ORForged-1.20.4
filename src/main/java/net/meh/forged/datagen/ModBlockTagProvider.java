@@ -101,7 +101,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WISTERIA_BUTTON)
                 .add(ModBlocks.WISTERIA_PRESSURE_PLATE)
                 .add(ModBlocks.WISTERIA_FENCE)
-                .add(ModBlocks.WISTERIA_FENCE_GATE);
+                .add(ModBlocks.WISTERIA_FENCE_GATE)
+                .add(ModBlocks.BAOBAB_PLANKS)
+                .add(ModBlocks.BAOBAB_PLANKS_CARVED)
+                .add(ModBlocks.BAOBAB_LOG)
+                .add(ModBlocks.STRIPPED_BAOBAB_LOG)
+                .add(ModBlocks.BAOBAB_WOOD)
+                .add(ModBlocks.STRIPPED_BAOBAB_WOOD)
+                .add(ModBlocks.BAOBAB_STAIRS)
+                .add(ModBlocks.BAOBAB_SLAB)
+                .add(ModBlocks.BAOBAB_BUTTON)
+                .add(ModBlocks.BAOBAB_PRESSURE_PLATE)
+                .add(ModBlocks.BAOBAB_FENCE)
+                .add(ModBlocks.BAOBAB_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.ORANGE_MAPLE_LEAVES)
@@ -115,7 +127,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WISTERIA_FLOWERS_BLUE)
                 .add(ModBlocks.WISTERIA_FLOWERS_PINK)
                 .add(ModBlocks.WISTERIA_FLOWERS_PURPLE)
-                .add(ModBlocks.WISTERIA_FLOWERS_WHITE);
+                .add(ModBlocks.WISTERIA_FLOWERS_WHITE)
+                .add(ModBlocks.BAOBAB_LEAVES);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.PLATINUM_ORE)
@@ -150,21 +163,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WISTERIA_LOG)
                 .add(ModBlocks.STRIPPED_WISTERIA_LOG)
                 .add(ModBlocks.WISTERIA_WOOD)
-                .add(ModBlocks.STRIPPED_WISTERIA_WOOD);
+                .add(ModBlocks.STRIPPED_WISTERIA_WOOD)
+                .add(ModBlocks.BAOBAB_LOG)
+                .add(ModBlocks.STRIPPED_BAOBAB_LOG)
+                .add(ModBlocks.BAOBAB_WOOD)
+                .add(ModBlocks.STRIPPED_BAOBAB_WOOD);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.MAPLE_FENCE)
                 .add(ModBlocks.BLEAK_FENCE)
                 .add(ModBlocks.PALM_FENCE)
                 .add(ModBlocks.BAYOU_FENCE)
-                .add(ModBlocks.WISTERIA_FENCE);
+                .add(ModBlocks.WISTERIA_FENCE)
+                .add(ModBlocks.BAOBAB_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.MAPLE_FENCE_GATE)
                 .add(ModBlocks.BLEAK_FENCE_GATE)
                 .add(ModBlocks.PALM_FENCE_GATE)
                 .add(ModBlocks.BAYOU_FENCE_GATE)
-                .add(ModBlocks.WISTERIA_FENCE_GATE);
+                .add(ModBlocks.WISTERIA_FENCE_GATE)
+                .add(ModBlocks.BAOBAB_FENCE_GATE);
 
     }
 }

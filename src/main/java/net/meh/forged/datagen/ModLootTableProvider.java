@@ -129,5 +129,21 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WISTERIA_FLOWERS_PINK, leavesDrops(ModBlocks.WISTERIA_FLOWERS_PINK, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
         addDrop(ModBlocks.WISTERIA_FLOWERS_PURPLE, leavesDrops(ModBlocks.WISTERIA_FLOWERS_PURPLE, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
         addDrop(ModBlocks.WISTERIA_FLOWERS_WHITE, leavesDrops(ModBlocks.WISTERIA_FLOWERS_WHITE, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
+
+        addDrop(ModBlocks.BAOBAB_LOG);
+        addDrop(ModBlocks.STRIPPED_BAOBAB_LOG);
+        addDrop(ModBlocks.BAOBAB_WOOD);
+        addDrop(ModBlocks.STRIPPED_BAOBAB_WOOD);
+        addDrop(ModBlocks.BAOBAB_PLANKS);
+        addDrop(ModBlocks.BAOBAB_PLANKS_CARVED);
+
+        addDrop(ModBlocks.BAOBAB_STAIRS);
+        addDrop(ModBlocks.BAOBAB_BUTTON);
+        addDrop(ModBlocks.BAOBAB_PRESSURE_PLATE);
+        addDrop(ModBlocks.BAOBAB_FENCE);
+        addDrop(ModBlocks.BAOBAB_FENCE_GATE);
+        addDrop(ModBlocks.BAOBAB_SLAB, slabDrops(ModBlocks.BAOBAB_SLAB));
+
+        addDrop(ModBlocks.BAOBAB_LEAVES, leavesDrops(ModBlocks.BAOBAB_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
     }
 }

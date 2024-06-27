@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "orforged:stripped_baobab_log"
+    }
+  ],
+  "result": {
+    "item": "orforged:baobab_planks",
+    "count": 4
+  }
+}

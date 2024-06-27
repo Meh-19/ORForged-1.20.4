@@ -135,7 +135,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WISTERIA_FLOWERS_PURPLE);
                         entries.add(ModBlocks.WISTERIA_FLOWERS_WHITE);
 
-
+                        entries.add(ModBlocks.BAOBAB_LOG);
+                        entries.add(ModBlocks.STRIPPED_BAOBAB_LOG);
+                        entries.add(ModBlocks.BAOBAB_WOOD);
+                        entries.add(ModBlocks.STRIPPED_BAOBAB_WOOD);
+                        entries.add(ModBlocks.BAOBAB_PLANKS);
+                        entries.add(ModBlocks.BAOBAB_STAIRS);
+                        entries.add(ModBlocks.BAOBAB_SLAB);
+                        entries.add(ModBlocks.BAOBAB_FENCE);
+                        entries.add(ModBlocks.BAOBAB_FENCE_GATE);
+                        entries.add(ModBlocks.BAOBAB_BUTTON);
+                        entries.add(ModBlocks.BAOBAB_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BAOBAB_PLANKS_CARVED);
+                        entries.add(ModBlocks.BAOBAB_LEAVES);
 
 
                     }).build());

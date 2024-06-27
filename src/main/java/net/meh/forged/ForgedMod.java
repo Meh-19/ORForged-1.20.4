@@ -93,5 +93,16 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_FLOWERS_PINK,30,60);;
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_FLOWERS_PURPLE,30,60);;
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_FLOWERS_WHITE,30,60);;
+
+		StrippableBlockRegistry.register(ModBlocks.BAOBAB_LOG, ModBlocks.STRIPPED_BAOBAB_LOG);
+		StrippableBlockRegistry.register(ModBlocks.BAOBAB_WOOD, ModBlocks.STRIPPED_BAOBAB_WOOD);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_LOG,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_WOOD,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BAOBAB_LOG,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BAOBAB_WOOD,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_PLANKS_CARVED,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_LEAVES,30,60);;
 	}
 }

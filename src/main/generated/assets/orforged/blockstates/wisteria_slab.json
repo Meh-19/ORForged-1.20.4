@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "orforged:block/wisteria_slab"
+    },
+    "type=double": {
+      "model": "orforged:block/wisteria_planks"
+    },
+    "type=top": {
+      "model": "orforged:block/wisteria_slab_top"
+    }
+  }
+}

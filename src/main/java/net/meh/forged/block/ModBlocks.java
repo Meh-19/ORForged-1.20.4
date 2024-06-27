@@ -239,6 +239,37 @@ public class ModBlocks {
     public static final Block WISTERIA_FENCE_GATE = registerBlock("wisteria_fence_gate",
             new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
+    public static final Block BAOBAB_LOG = registerBlock("baobab_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+    public static final Block BAOBAB_WOOD = registerBlock("baobab_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
+    public static final Block STRIPPED_BAOBAB_LOG = registerBlock("stripped_baobab_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(4f)));
+    public static final Block STRIPPED_BAOBAB_WOOD = registerBlock("stripped_baobab_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+
+    public static final Block BAOBAB_PLANKS = registerBlock("baobab_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block BAOBAB_PLANKS_CARVED = registerBlock("baobab_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block BAOBAB_LEAVES = registerBlock("baobab_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.2F).nonOpaque()));
+
+    public static final Block BAOBAB_STAIRS = registerBlock("baobab_stairs",
+            new StairsBlock(ModBlocks.BAOBAB_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BAOBAB_SLAB = registerBlock("baobab_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block BAOBAB_BUTTON = registerBlock("baobab_button",
+            new ButtonBlock(BlockSetType.OAK, 15, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BAOBAB_PRESSURE_PLATE = registerBlock("baobab_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block BAOBAB_FENCE = registerBlock("baobab_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BAOBAB_FENCE_GATE = registerBlock("baobab_fence_gate",
+            new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(PLATINUM_BLOCK);

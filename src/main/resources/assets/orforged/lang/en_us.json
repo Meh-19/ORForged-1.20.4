@@ -124,5 +124,20 @@
   "block.orforged.wisteria_button": "Wisteria Button",
   "block.orforged.wisteria_pressure_plate": "Wisteria Pressure Plate",
   "block.orforged.wisteria_fence": "Wisteria Fence",
-  "block.orforged.wisteria_fence_gate": "Wisteria Fence Gate"
+  "block.orforged.wisteria_fence_gate": "Wisteria Fence Gate",
+
+  "block.orforged.baobab_log": "Bayou Log",
+  "block.orforged.stripped_baobab_log": "Stripped Bayou Log",
+  "block.orforged.baobab_wood": "Bayou Wood",
+  "block.orforged.stripped_baobab_wood": "Stripped Bayou Wood",
+
+  "block.orforged.baobab_leaves": "Baobab Leaves",
+  "block.orforged.baobab_planks": "Baobab Planks",
+  "block.orforged.baobab_planks_carved": "Carved Baobab Planks",
+  "block.orforged.baobab_stairs": "Baobab Stairs",
+  "block.orforged.baobab_slab": "Baobab Slab",
+  "block.orforged.baobab_button": "Baobab Button",
+  "block.orforged.baobab_pressure_plate": "Baobab Pressure Plate",
+  "block.orforged.baobab_fence": "Baobab Fence",
+  "block.orforged.baobab_fence_gate": "Baobab Fence Gate"
 }

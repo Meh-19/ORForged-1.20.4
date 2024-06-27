@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:baobab_slab"
+    }
+  },
+  "result": {
+    "item": "orforged:baobab_planks_carved"
+  }
+}

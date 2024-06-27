@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:baobab_planks"
+    }
+  },
+  "result": {
+    "item": "orforged:baobab_stairs",
+    "count": 4
+  }
+}

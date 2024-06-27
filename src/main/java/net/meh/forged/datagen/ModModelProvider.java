@@ -113,6 +113,19 @@ public class ModModelProvider extends FabricModelProvider {
         wisteriaPool.fence(ModBlocks.WISTERIA_FENCE);
         wisteriaPool.fenceGate(ModBlocks.WISTERIA_FENCE_GATE);
 
+        blockStateModelGenerator.registerLog(ModBlocks.BAOBAB_LOG).log(ModBlocks.BAOBAB_LOG).wood(ModBlocks.BAOBAB_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BAOBAB_LOG).log(ModBlocks.STRIPPED_BAOBAB_LOG).wood(ModBlocks.STRIPPED_BAOBAB_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BAOBAB_LEAVES);
+        BlockStateModelGenerator.BlockTexturePool baobabPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BAOBAB_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BAOBAB_PLANKS_CARVED);
+
+        baobabPool.stairs(ModBlocks.BAOBAB_STAIRS);
+        baobabPool.slab(ModBlocks.BAOBAB_SLAB);
+        baobabPool.button(ModBlocks.BAOBAB_BUTTON);
+        baobabPool.pressurePlate(ModBlocks.BAOBAB_PRESSURE_PLATE);
+        baobabPool.fence(ModBlocks.BAOBAB_FENCE);
+        baobabPool.fenceGate(ModBlocks.BAOBAB_FENCE_GATE);
+
     }
 
     @Override
