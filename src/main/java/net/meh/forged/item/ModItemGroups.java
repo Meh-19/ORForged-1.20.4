@@ -49,8 +49,31 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAPLE_WOOD);
                         entries.add(ModBlocks.STRIPPED_MAPLE_WOOD);
                         entries.add(ModBlocks.MAPLE_PLANKS);
+                        entries.add(ModBlocks.MAPLE_STAIRS);
+                        entries.add(ModBlocks.MAPLE_SLAB);
+                        entries.add(ModBlocks.MAPLE_FENCE);
+                        entries.add(ModBlocks.MAPLE_FENCE_GATE);
+                        entries.add(ModBlocks.MAPLE_BUTTON);
+                        entries.add(ModBlocks.MAPLE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MAPLE_PLANKS_CARVED);
                         entries.add(ModBlocks.ORANGE_MAPLE_LEAVES);
                         entries.add(ModBlocks.RED_MAPLE_LEAVES);
+
+                        entries.add(ModBlocks.BLEAK_LOG);
+                        entries.add(ModBlocks.STRIPPED_BLEAK_LOG);
+                        entries.add(ModBlocks.BLEAK_WOOD);
+                        entries.add(ModBlocks.STRIPPED_BLEAK_WOOD);
+                        entries.add(ModBlocks.BLEAK_PLANKS);
+                        entries.add(ModBlocks.BLEAK_STAIRS);
+                        entries.add(ModBlocks.BLEAK_SLAB);
+                        entries.add(ModBlocks.BLEAK_FENCE);
+                        entries.add(ModBlocks.BLEAK_FENCE_GATE);
+                        entries.add(ModBlocks.BLEAK_BUTTON);
+                        entries.add(ModBlocks.BLEAK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BLEAK_PLANKS_CARVED);
+                        entries.add(ModBlocks.BLEAK_LEAVES);
+
+
 
                     }).build());
 

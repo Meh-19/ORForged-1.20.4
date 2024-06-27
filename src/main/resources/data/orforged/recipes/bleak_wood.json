@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:bleak_log"
+    }
+  },
+  "result": {
+    "item": "orforged:bleak_wood",
+    "count": 3
+  }
+}

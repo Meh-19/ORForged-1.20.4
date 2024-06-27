@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_slab",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:maple_planks"
+    }
+  },
+  "result": {
+    "item": "orforged:maple_slab",
+    "count": 6
+  }
+}

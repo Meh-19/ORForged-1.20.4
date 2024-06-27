@@ -49,11 +49,59 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
 
     public static final Block MAPLE_PLANKS = registerBlock("maple_planks",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F)));
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block MAPLE_PLANKS_CARVED = registerBlock("maple_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block ORANGE_MAPLE_LEAVES = registerBlock("orange_maple_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.2F).nonOpaque()));
     public static final Block RED_MAPLE_LEAVES = registerBlock("red_maple_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.2F).nonOpaque()));
+
+    public static final Block MAPLE_STAIRS = registerBlock("maple_stairs",
+            new StairsBlock(ModBlocks.MAPLE_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block MAPLE_SLAB = registerBlock("maple_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block MAPLE_BUTTON = registerBlock("maple_button",
+            new ButtonBlock(BlockSetType.OAK, 15, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block MAPLE_PRESSURE_PLATE = registerBlock("maple_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block MAPLE_FENCE = registerBlock("maple_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block MAPLE_FENCE_GATE = registerBlock("maple_fence_gate",
+            new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block BLEAK_LOG = registerBlock("bleak_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+    public static final Block BLEAK_WOOD = registerBlock("bleak_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
+    public static final Block STRIPPED_BLEAK_LOG = registerBlock("stripped_bleak_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(4f)));
+    public static final Block STRIPPED_BLEAK_WOOD = registerBlock("stripped_bleak_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+
+    public static final Block BLEAK_PLANKS = registerBlock("bleak_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block BLEAK_PLANKS_CARVED = registerBlock("bleak_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block BLEAK_LEAVES = registerBlock("bleak_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.2F).nonOpaque()));
+
+    public static final Block BLEAK_STAIRS = registerBlock("bleak_stairs",
+            new StairsBlock(ModBlocks.BLEAK_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BLEAK_SLAB = registerBlock("bleak_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block BLEAK_BUTTON = registerBlock("bleak_button",
+            new ButtonBlock(BlockSetType.OAK, 15, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BLEAK_PRESSURE_PLATE = registerBlock("bleak_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block BLEAK_FENCE = registerBlock("bleak_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BLEAK_FENCE_GATE = registerBlock("bleak_fence_gate",
+            new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(PLATINUM_BLOCK);

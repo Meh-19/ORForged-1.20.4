@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:stripped_bleak_log"
+    }
+  },
+  "result": {
+    "item": "orforged:stripped_bleak_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:bleak_slab"
+    }
+  },
+  "result": {
+    "item": "orforged:bleak_planks_carved"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:maple_planks"
+    }
+  },
+  "result": {
+    "item": "orforged:maple_stairs",
+    "count": 4
+  }
+}

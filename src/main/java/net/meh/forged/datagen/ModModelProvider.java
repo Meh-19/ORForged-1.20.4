@@ -32,7 +32,29 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_MAPLE_LOG).log(ModBlocks.STRIPPED_MAPLE_LOG).wood(ModBlocks.STRIPPED_MAPLE_WOOD);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_MAPLE_LEAVES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_MAPLE_LEAVES);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAPLE_PLANKS);
+        BlockStateModelGenerator.BlockTexturePool maplePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAPLE_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAPLE_PLANKS_CARVED);
+
+        maplePool.stairs(ModBlocks.MAPLE_STAIRS);
+        maplePool.slab(ModBlocks.MAPLE_SLAB);
+        maplePool.button(ModBlocks.MAPLE_BUTTON);
+        maplePool.pressurePlate(ModBlocks.MAPLE_PRESSURE_PLATE);
+        maplePool.fence(ModBlocks.MAPLE_FENCE);
+        maplePool.fenceGate(ModBlocks.MAPLE_FENCE_GATE);
+
+        blockStateModelGenerator.registerLog(ModBlocks.BLEAK_LOG).log(ModBlocks.BLEAK_LOG).wood(ModBlocks.BLEAK_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BLEAK_LOG).log(ModBlocks.STRIPPED_BLEAK_LOG).wood(ModBlocks.STRIPPED_BLEAK_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLEAK_LEAVES);
+        BlockStateModelGenerator.BlockTexturePool bleakPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLEAK_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLEAK_PLANKS_CARVED);
+
+        bleakPool.stairs(ModBlocks.BLEAK_STAIRS);
+        bleakPool.slab(ModBlocks.BLEAK_SLAB);
+        bleakPool.button(ModBlocks.BLEAK_BUTTON);
+        bleakPool.pressurePlate(ModBlocks.BLEAK_PRESSURE_PLATE);
+        bleakPool.fence(ModBlocks.BLEAK_FENCE);
+        bleakPool.fenceGate(ModBlocks.BLEAK_FENCE_GATE);
+
     }
 
     @Override

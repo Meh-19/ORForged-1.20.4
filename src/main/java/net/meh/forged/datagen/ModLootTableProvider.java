@@ -32,9 +32,32 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MAPLE_WOOD);
         addDrop(ModBlocks.STRIPPED_MAPLE_WOOD);
         addDrop(ModBlocks.MAPLE_PLANKS);
+        addDrop(ModBlocks.MAPLE_PLANKS_CARVED);
 
-        addDrop(ModBlocks.RED_MAPLE_LEAVES, leavesDrops(ModBlocks.RED_MAPLE_LEAVES, ModBlocks.RUBY_BLOCK, 0.0025f)); //TODO
+        addDrop(ModBlocks.MAPLE_STAIRS);
+        addDrop(ModBlocks.MAPLE_BUTTON);
+        addDrop(ModBlocks.MAPLE_PRESSURE_PLATE);
+        addDrop(ModBlocks.MAPLE_FENCE);
+        addDrop(ModBlocks.MAPLE_FENCE_GATE);
+        addDrop(ModBlocks.MAPLE_SLAB, slabDrops(ModBlocks.MAPLE_SLAB));
+
+        addDrop(ModBlocks.RED_MAPLE_LEAVES, leavesDrops(ModBlocks.RED_MAPLE_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
         addDrop(ModBlocks.ORANGE_MAPLE_LEAVES, leavesDrops(ModBlocks.ORANGE_MAPLE_LEAVES, ModBlocks.RUBY_BLOCK, 0.0025f)); //TODO
 
+        addDrop(ModBlocks.BLEAK_LOG);
+        addDrop(ModBlocks.STRIPPED_BLEAK_LOG);
+        addDrop(ModBlocks.BLEAK_WOOD);
+        addDrop(ModBlocks.STRIPPED_BLEAK_WOOD);
+        addDrop(ModBlocks.BLEAK_PLANKS);
+        addDrop(ModBlocks.BLEAK_PLANKS_CARVED);
+
+        addDrop(ModBlocks.BLEAK_STAIRS);
+        addDrop(ModBlocks.BLEAK_BUTTON);
+        addDrop(ModBlocks.BLEAK_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLEAK_FENCE);
+        addDrop(ModBlocks.BLEAK_FENCE_GATE);
+        addDrop(ModBlocks.BLEAK_SLAB, slabDrops(ModBlocks.BLEAK_SLAB));
+
+        addDrop(ModBlocks.BLEAK_LEAVES, leavesDrops(ModBlocks.RED_MAPLE_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
     }
 }

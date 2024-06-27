@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:bleak_planks"
+    }
+  },
+  "result": {
+    "item": "orforged:bleak_stairs",
+    "count": 4
+  }
+}

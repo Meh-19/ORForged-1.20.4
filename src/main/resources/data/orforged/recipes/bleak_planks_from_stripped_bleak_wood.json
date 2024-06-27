@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "orforged:stripped_bleak_wood"
+    }
+  ],
+  "result": {
+    "item": "orforged:bleak_planks",
+    "count": 4
+  }
+}

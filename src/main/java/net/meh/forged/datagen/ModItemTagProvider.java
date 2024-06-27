@@ -24,12 +24,19 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PLATINUM_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.PLANKS)
-                .add(ModBlocks.MAPLE_PLANKS.asItem());
+                .add(ModBlocks.MAPLE_PLANKS.asItem())
+                .add(ModBlocks.MAPLE_PLANKS_CARVED.asItem())
+                .add(ModBlocks.BLEAK_PLANKS.asItem())
+                .add(ModBlocks.BLEAK_LEAVES.asItem());
 
         getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.MAPLE_LOG.asItem())
                 .add(ModBlocks.STRIPPED_MAPLE_LOG.asItem())
                 .add(ModBlocks.MAPLE_WOOD.asItem())
-                .add(ModBlocks.STRIPPED_MAPLE_WOOD.asItem());
+                .add(ModBlocks.STRIPPED_MAPLE_WOOD.asItem())
+                .add(ModBlocks.BLEAK_LOG.asItem())
+                .add(ModBlocks.STRIPPED_BLEAK_LOG.asItem())
+                .add(ModBlocks.BLEAK_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_BLEAK_WOOD.asItem());
     }
 }
