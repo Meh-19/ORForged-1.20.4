@@ -55,6 +55,20 @@ public class ModModelProvider extends FabricModelProvider {
         bleakPool.fence(ModBlocks.BLEAK_FENCE);
         bleakPool.fenceGate(ModBlocks.BLEAK_FENCE_GATE);
 
+        blockStateModelGenerator.registerLog(ModBlocks.FIR_LOG).log(ModBlocks.FIR_LOG).wood(ModBlocks.FIR_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_FIR_LOG).log(ModBlocks.STRIPPED_FIR_LOG).wood(ModBlocks.STRIPPED_FIR_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_FIR_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_FIR_LEAVES);
+        BlockStateModelGenerator.BlockTexturePool firPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FIR_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIR_PLANKS_CARVED);
+
+        firPool.stairs(ModBlocks.FIR_STAIRS);
+        firPool.slab(ModBlocks.FIR_SLAB);
+        firPool.button(ModBlocks.FIR_BUTTON);
+        firPool.pressurePlate(ModBlocks.FIR_PRESSURE_PLATE);
+        firPool.fence(ModBlocks.FIR_FENCE);
+        firPool.fenceGate(ModBlocks.FIR_FENCE_GATE);
+
     }
 
     @Override

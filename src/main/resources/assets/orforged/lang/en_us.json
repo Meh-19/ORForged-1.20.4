@@ -57,5 +57,21 @@
   "block.orforged.bleak_button": "Bleak Button",
   "block.orforged.bleak_pressure_plate": "Bleak Pressure Plate",
   "block.orforged.bleak_fence": "Bleak Fence",
-  "block.orforged.bleak_fence_gate": "Bleak Fence Gate"
+  "block.orforged.bleak_fence_gate": "Bleak Fence Gate",
+
+  "block.orforged.fir_log": "Fir Log",
+  "block.orforged.stripped_fir_log": "Stripped Fir Log",
+  "block.orforged.fir_wood": "Fir Wood",
+  "block.orforged.stripped_fir_wood": "Stripped Fir Wood",
+
+  "block.orforged.green_fir_leaves": "Green Fir Leaves",
+  "block.orforged.orange_fir_leaves": "Orange Fir Leaves",
+  "block.orforged.fir_planks": "Fir Planks",
+  "block.orforged.fir_planks_carved": "Carved Fir Planks",
+  "block.orforged.fir_stairs": "Fir Stairs",
+  "block.orforged.fir_slab": "Fir Slab",
+  "block.orforged.fir_button": "Fir Button",
+  "block.orforged.fir_pressure_plate": "Fir Pressure Plate",
+  "block.orforged.fir_fence": "Fir Fence",
+  "block.orforged.fir_fence_gate": "Fir Fence Gate"
 }

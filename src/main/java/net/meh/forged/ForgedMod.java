@@ -32,5 +32,28 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_PLANKS_CARVED,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.RED_MAPLE_LEAVES,30,60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.ORANGE_MAPLE_LEAVES,30,60);
+
+		StrippableBlockRegistry.register(ModBlocks.BLEAK_LOG, ModBlocks.STRIPPED_BLEAK_LOG);
+		StrippableBlockRegistry.register(ModBlocks.BLEAK_WOOD, ModBlocks.STRIPPED_BLEAK_WOOD);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLEAK_LOG,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLEAK_WOOD,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BLEAK_LOG,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BLEAK_WOOD,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLEAK_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLEAK_PLANKS_CARVED,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLEAK_LEAVES,30,60);
+
+		StrippableBlockRegistry.register(ModBlocks.FIR_LOG, ModBlocks.STRIPPED_FIR_LOG);
+		StrippableBlockRegistry.register(ModBlocks.FIR_WOOD, ModBlocks.STRIPPED_FIR_WOOD);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FIR_LOG,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FIR_WOOD,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_FIR_LOG,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_FIR_WOOD,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FIR_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FIR_PLANKS_CARVED,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.GREEN_FIR_LEAVES,30,60);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.ORANGE_FIR_LEAVES,30,60);
 	}
 }

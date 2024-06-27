@@ -52,11 +52,26 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLEAK_BUTTON)
                 .add(ModBlocks.BLEAK_PRESSURE_PLATE)
                 .add(ModBlocks.BLEAK_FENCE)
-                .add(ModBlocks.BLEAK_FENCE_GATE);
+                .add(ModBlocks.BLEAK_FENCE_GATE)
+                .add(ModBlocks.FIR_PLANKS)
+                .add(ModBlocks.FIR_PLANKS_CARVED)
+                .add(ModBlocks.FIR_LOG)
+                .add(ModBlocks.STRIPPED_FIR_LOG)
+                .add(ModBlocks.FIR_WOOD)
+                .add(ModBlocks.STRIPPED_FIR_WOOD)
+                .add(ModBlocks.FIR_STAIRS)
+                .add(ModBlocks.FIR_SLAB)
+                .add(ModBlocks.FIR_BUTTON)
+                .add(ModBlocks.FIR_PRESSURE_PLATE)
+                .add(ModBlocks.FIR_FENCE)
+                .add(ModBlocks.FIR_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.ORANGE_MAPLE_LEAVES)
-                .add(ModBlocks.RED_MAPLE_LEAVES);
+                .add(ModBlocks.RED_MAPLE_LEAVES)
+                .add(ModBlocks.BLEAK_LEAVES)
+                .add(ModBlocks.ORANGE_FIR_LEAVES)
+                .add(ModBlocks.GREEN_FIR_LEAVES);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.PLATINUM_ORE)
@@ -74,7 +89,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLEAK_LOG)
                 .add(ModBlocks.STRIPPED_BLEAK_LOG)
                 .add(ModBlocks.BLEAK_WOOD)
-                .add(ModBlocks.STRIPPED_BLEAK_WOOD);
+                .add(ModBlocks.STRIPPED_BLEAK_WOOD)
+                .add(ModBlocks.FIR_LOG)
+                .add(ModBlocks.STRIPPED_FIR_LOG)
+                .add(ModBlocks.FIR_WOOD)
+                .add(ModBlocks.STRIPPED_FIR_WOOD);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.MAPLE_FENCE)

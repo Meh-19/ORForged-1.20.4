@@ -59,5 +59,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLEAK_SLAB, slabDrops(ModBlocks.BLEAK_SLAB));
 
         addDrop(ModBlocks.BLEAK_LEAVES, leavesDrops(ModBlocks.RED_MAPLE_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
+
+        addDrop(ModBlocks.FIR_LOG);
+        addDrop(ModBlocks.STRIPPED_FIR_LOG);
+        addDrop(ModBlocks.FIR_WOOD);
+        addDrop(ModBlocks.STRIPPED_FIR_WOOD);
+        addDrop(ModBlocks.FIR_PLANKS);
+        addDrop(ModBlocks.FIR_PLANKS_CARVED);
+
+        addDrop(ModBlocks.FIR_STAIRS);
+        addDrop(ModBlocks.FIR_BUTTON);
+        addDrop(ModBlocks.FIR_PRESSURE_PLATE);
+        addDrop(ModBlocks.FIR_FENCE);
+        addDrop(ModBlocks.FIR_FENCE_GATE);
+        addDrop(ModBlocks.FIR_SLAB, slabDrops(ModBlocks.FIR_SLAB));
+
+        addDrop(ModBlocks.GREEN_FIR_LEAVES, leavesDrops(ModBlocks.GREEN_FIR_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
+        addDrop(ModBlocks.ORANGE_FIR_LEAVES, leavesDrops(ModBlocks.ORANGE_FIR_LEAVES, ModBlocks.RUBY_BLOCK, 0.0025f)); //TODO
     }
 }

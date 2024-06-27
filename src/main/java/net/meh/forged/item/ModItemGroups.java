@@ -73,6 +73,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLEAK_PLANKS_CARVED);
                         entries.add(ModBlocks.BLEAK_LEAVES);
 
+                        entries.add(ModBlocks.FIR_LOG);
+                        entries.add(ModBlocks.STRIPPED_FIR_LOG);
+                        entries.add(ModBlocks.FIR_WOOD);
+                        entries.add(ModBlocks.STRIPPED_FIR_WOOD);
+                        entries.add(ModBlocks.FIR_PLANKS);
+                        entries.add(ModBlocks.FIR_STAIRS);
+                        entries.add(ModBlocks.FIR_SLAB);
+                        entries.add(ModBlocks.FIR_FENCE);
+                        entries.add(ModBlocks.FIR_FENCE_GATE);
+                        entries.add(ModBlocks.FIR_BUTTON);
+                        entries.add(ModBlocks.FIR_PRESSURE_PLATE);
+                        entries.add(ModBlocks.FIR_PLANKS_CARVED);
+                        entries.add(ModBlocks.GREEN_FIR_LEAVES);
+                        entries.add(ModBlocks.ORANGE_FIR_LEAVES);
+
+
 
 
                     }).build());
