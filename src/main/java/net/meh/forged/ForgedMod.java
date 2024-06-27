@@ -55,5 +55,17 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FIR_PLANKS_CARVED,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.GREEN_FIR_LEAVES,30,60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.ORANGE_FIR_LEAVES,30,60);
+
+		StrippableBlockRegistry.register(ModBlocks.PALM_LOG, ModBlocks.STRIPPED_FIR_LOG);
+		StrippableBlockRegistry.register(ModBlocks.PALM_WOOD, ModBlocks.STRIPPED_FIR_WOOD);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_LOG,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_WOOD,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_PALM_LOG,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_PALM_WOOD,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_PLANKS_CARVED,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_CROWN,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_LEAVES,30,60);;
 	}
 }

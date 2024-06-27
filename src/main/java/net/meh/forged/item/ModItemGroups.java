@@ -88,6 +88,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GREEN_FIR_LEAVES);
                         entries.add(ModBlocks.ORANGE_FIR_LEAVES);
 
+                        entries.add(ModBlocks.PALM_LOG);
+                        entries.add(ModBlocks.STRIPPED_PALM_LOG);
+                        entries.add(ModBlocks.PALM_WOOD);
+                        entries.add(ModBlocks.STRIPPED_PALM_WOOD);
+                        entries.add(ModBlocks.PALM_PLANKS);
+                        entries.add(ModBlocks.PALM_STAIRS);
+                        entries.add(ModBlocks.PALM_SLAB);
+                        entries.add(ModBlocks.PALM_FENCE);
+                        entries.add(ModBlocks.PALM_FENCE_GATE);
+                        entries.add(ModBlocks.PALM_BUTTON);
+                        entries.add(ModBlocks.PALM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PALM_PLANKS_CARVED);
+                        entries.add(ModBlocks.PALM_CROWN);
+                        entries.add(ModBlocks.PALM_LEAVES);
+
 
 
 

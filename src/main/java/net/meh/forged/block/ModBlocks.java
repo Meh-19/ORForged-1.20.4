@@ -136,6 +136,40 @@ public class ModBlocks {
     public static final Block FIR_FENCE_GATE = registerBlock("fir_fence_gate",
             new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
+    public static final Block PALM_LOG = registerBlock("palm_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+    public static final Block PALM_WOOD = registerBlock("palm_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
+    public static final Block STRIPPED_PALM_LOG = registerBlock("stripped_palm_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(4f)));
+    public static final Block STRIPPED_PALM_WOOD = registerBlock("stripped_palm_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+
+    public static final Block PALM_PLANKS = registerBlock("palm_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block PALM_PLANKS_CARVED = registerBlock("palm_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block PALM_CROWN = registerBlock("palm_crown",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block PALM_LEAVES = registerBlock("palm_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.2F).nonOpaque()));
+
+    public static final Block PALM_STAIRS = registerBlock("palm_stairs",
+            new StairsBlock(ModBlocks.PALM_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block PALM_SLAB = registerBlock("palm_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block PALM_BUTTON = registerBlock("palm_button",
+            new ButtonBlock(BlockSetType.OAK, 15, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block PALM_PRESSURE_PLATE = registerBlock("palm_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block PALM_FENCE = registerBlock("palm_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block PALM_FENCE_GATE = registerBlock("palm_fence_gate",
+            new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(PLATINUM_BLOCK);
         entries.add(PLATINUM_BRICKS);

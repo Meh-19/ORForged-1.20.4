@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:palm_slab"
+    }
+  },
+  "result": {
+    "item": "orforged:palm_planks_carved"
+  }
+}

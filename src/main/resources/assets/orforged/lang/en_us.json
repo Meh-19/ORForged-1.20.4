@@ -73,5 +73,21 @@
   "block.orforged.fir_button": "Fir Button",
   "block.orforged.fir_pressure_plate": "Fir Pressure Plate",
   "block.orforged.fir_fence": "Fir Fence",
-  "block.orforged.fir_fence_gate": "Fir Fence Gate"
+  "block.orforged.fir_fence_gate": "Fir Fence Gate",
+
+  "block.orforged.palm_log": "Palm Log",
+  "block.orforged.stripped_palm_log": "Stripped Palm Log",
+  "block.orforged.palm_wood": "Palm Wood",
+  "block.orforged.stripped_palm_wood": "Stripped Palm Wood",
+
+  "block.orforged.palm_leaves": "Palm Leaves",
+  "block.orforged.palm_planks": "Palm Planks",
+  "block.orforged.palm_planks_carved": "Carved Palm Planks",
+  "block.orforged.palm_crown": "Palm Crown",
+  "block.orforged.palm_stairs": "Palm Stairs",
+  "block.orforged.palm_slab": "Palm Slab",
+  "block.orforged.palm_button": "Palm Button",
+  "block.orforged.palm_pressure_plate": "Palm Pressure Plate",
+  "block.orforged.palm_fence": "Palm Fence",
+  "block.orforged.palm_fence_gate": "Palm Fence Gate"
 }

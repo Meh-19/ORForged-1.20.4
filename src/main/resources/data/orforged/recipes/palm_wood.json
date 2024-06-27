@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:palm_log"
+    }
+  },
+  "result": {
+    "item": "orforged:palm_wood",
+    "count": 3
+  }
+}

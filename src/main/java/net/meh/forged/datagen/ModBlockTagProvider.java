@@ -64,14 +64,28 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FIR_BUTTON)
                 .add(ModBlocks.FIR_PRESSURE_PLATE)
                 .add(ModBlocks.FIR_FENCE)
-                .add(ModBlocks.FIR_FENCE_GATE);
+                .add(ModBlocks.FIR_FENCE_GATE)
+                .add(ModBlocks.PALM_PLANKS)
+                .add(ModBlocks.PALM_PLANKS_CARVED)
+                .add(ModBlocks.PALM_CROWN)
+                .add(ModBlocks.PALM_LOG)
+                .add(ModBlocks.STRIPPED_PALM_LOG)
+                .add(ModBlocks.PALM_WOOD)
+                .add(ModBlocks.STRIPPED_PALM_WOOD)
+                .add(ModBlocks.PALM_STAIRS)
+                .add(ModBlocks.PALM_SLAB)
+                .add(ModBlocks.PALM_BUTTON)
+                .add(ModBlocks.PALM_PRESSURE_PLATE)
+                .add(ModBlocks.PALM_FENCE)
+                .add(ModBlocks.PALM_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.ORANGE_MAPLE_LEAVES)
                 .add(ModBlocks.RED_MAPLE_LEAVES)
                 .add(ModBlocks.BLEAK_LEAVES)
                 .add(ModBlocks.ORANGE_FIR_LEAVES)
-                .add(ModBlocks.GREEN_FIR_LEAVES);
+                .add(ModBlocks.GREEN_FIR_LEAVES)
+                .add(ModBlocks.PALM_LEAVES);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.PLATINUM_ORE)
@@ -93,14 +107,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FIR_LOG)
                 .add(ModBlocks.STRIPPED_FIR_LOG)
                 .add(ModBlocks.FIR_WOOD)
-                .add(ModBlocks.STRIPPED_FIR_WOOD);
+                .add(ModBlocks.STRIPPED_FIR_WOOD)
+                .add(ModBlocks.PALM_LOG)
+                .add(ModBlocks.STRIPPED_PALM_LOG)
+                .add(ModBlocks.PALM_WOOD)
+                .add(ModBlocks.STRIPPED_PALM_WOOD)
+                .add(ModBlocks.PALM_CROWN);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.MAPLE_FENCE)
-                .add(ModBlocks.BLEAK_FENCE);
+                .add(ModBlocks.BLEAK_FENCE)
+                .add(ModBlocks.PALM_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.MAPLE_FENCE_GATE)
-                .add(ModBlocks.BLEAK_FENCE_GATE);
+                .add(ModBlocks.BLEAK_FENCE_GATE)
+                .add(ModBlocks.PALM_FENCE_GATE);
 
     }
 }
