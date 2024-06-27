@@ -83,6 +83,19 @@ public class ModModelProvider extends FabricModelProvider {
         palmPool.fence(ModBlocks.PALM_FENCE);
         palmPool.fenceGate(ModBlocks.PALM_FENCE_GATE);
 
+        blockStateModelGenerator.registerLog(ModBlocks.BAYOU_LOG).log(ModBlocks.BAYOU_LOG).wood(ModBlocks.BAYOU_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BAYOU_LOG).log(ModBlocks.STRIPPED_BAYOU_LOG).wood(ModBlocks.STRIPPED_BAYOU_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BAYOU_LEAVES);
+        BlockStateModelGenerator.BlockTexturePool bayouPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BAYOU_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BAYOU_PLANKS_CARVED);
+
+        bayouPool.stairs(ModBlocks.BAYOU_STAIRS);
+        bayouPool.slab(ModBlocks.BAYOU_SLAB);
+        bayouPool.button(ModBlocks.BAYOU_BUTTON);
+        bayouPool.pressurePlate(ModBlocks.BAYOU_PRESSURE_PLATE);
+        bayouPool.fence(ModBlocks.BAYOU_FENCE);
+        bayouPool.fenceGate(ModBlocks.BAYOU_FENCE_GATE);
+
     }
 
     @Override

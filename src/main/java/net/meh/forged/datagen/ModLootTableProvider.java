@@ -58,7 +58,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLEAK_FENCE_GATE);
         addDrop(ModBlocks.BLEAK_SLAB, slabDrops(ModBlocks.BLEAK_SLAB));
 
-        addDrop(ModBlocks.BLEAK_LEAVES, leavesDrops(ModBlocks.RED_MAPLE_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
+        addDrop(ModBlocks.BLEAK_LEAVES, leavesDrops(ModBlocks.BLEAK_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
 
         addDrop(ModBlocks.FIR_LOG);
         addDrop(ModBlocks.STRIPPED_FIR_LOG);
@@ -93,5 +93,21 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PALM_SLAB, slabDrops(ModBlocks.PALM_SLAB));
 
         addDrop(ModBlocks.PALM_LEAVES, leavesDrops(ModBlocks.PALM_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
+
+        addDrop(ModBlocks.BAYOU_LOG);
+        addDrop(ModBlocks.STRIPPED_BAYOU_LOG);
+        addDrop(ModBlocks.BAYOU_WOOD);
+        addDrop(ModBlocks.STRIPPED_BAYOU_WOOD);
+        addDrop(ModBlocks.BAYOU_PLANKS);
+        addDrop(ModBlocks.BAYOU_PLANKS_CARVED);
+
+        addDrop(ModBlocks.BAYOU_STAIRS);
+        addDrop(ModBlocks.BAYOU_BUTTON);
+        addDrop(ModBlocks.BAYOU_PRESSURE_PLATE);
+        addDrop(ModBlocks.BAYOU_FENCE);
+        addDrop(ModBlocks.BAYOU_FENCE_GATE);
+        addDrop(ModBlocks.BAYOU_SLAB, slabDrops(ModBlocks.BAYOU_SLAB));
+
+        addDrop(ModBlocks.BAYOU_LEAVES, leavesDrops(ModBlocks.BAYOU_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
     }
 }

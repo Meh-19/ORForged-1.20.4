@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:bayou_slab"
+    }
+  },
+  "result": {
+    "item": "orforged:bayou_planks_carved"
+  }
+}

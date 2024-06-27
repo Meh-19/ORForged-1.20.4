@@ -169,6 +169,37 @@ public class ModBlocks {
     public static final Block PALM_FENCE_GATE = registerBlock("palm_fence_gate",
             new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
+    public static final Block BAYOU_LOG = registerBlock("bayou_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+    public static final Block BAYOU_WOOD = registerBlock("bayou_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
+    public static final Block STRIPPED_BAYOU_LOG = registerBlock("stripped_bayou_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(4f)));
+    public static final Block STRIPPED_BAYOU_WOOD = registerBlock("stripped_bayou_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+
+    public static final Block BAYOU_PLANKS = registerBlock("bayou_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block BAYOU_PLANKS_CARVED = registerBlock("bayou_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block BAYOU_LEAVES = registerBlock("bayou_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.2F).nonOpaque()));
+
+    public static final Block BAYOU_STAIRS = registerBlock("bayou_stairs",
+            new StairsBlock(ModBlocks.BAYOU_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BAYOU_SLAB = registerBlock("bayou_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block BAYOU_BUTTON = registerBlock("bayou_button",
+            new ButtonBlock(BlockSetType.OAK, 15, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BAYOU_PRESSURE_PLATE = registerBlock("bayou_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block BAYOU_FENCE = registerBlock("bayou_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BAYOU_FENCE_GATE = registerBlock("bayou_fence_gate",
+            new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(PLATINUM_BLOCK);

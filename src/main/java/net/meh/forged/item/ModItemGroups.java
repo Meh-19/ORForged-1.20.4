@@ -103,6 +103,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALM_CROWN);
                         entries.add(ModBlocks.PALM_LEAVES);
 
+                        entries.add(ModBlocks.BAYOU_LOG);
+                        entries.add(ModBlocks.STRIPPED_BAYOU_LOG);
+                        entries.add(ModBlocks.BAYOU_WOOD);
+                        entries.add(ModBlocks.STRIPPED_BAYOU_WOOD);
+                        entries.add(ModBlocks.BAYOU_PLANKS);
+                        entries.add(ModBlocks.BAYOU_STAIRS);
+                        entries.add(ModBlocks.BAYOU_SLAB);
+                        entries.add(ModBlocks.BAYOU_FENCE);
+                        entries.add(ModBlocks.BAYOU_FENCE_GATE);
+                        entries.add(ModBlocks.BAYOU_BUTTON);
+                        entries.add(ModBlocks.BAYOU_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BAYOU_PLANKS_CARVED);
+                        entries.add(ModBlocks.BAYOU_LEAVES);
+
 
 
 

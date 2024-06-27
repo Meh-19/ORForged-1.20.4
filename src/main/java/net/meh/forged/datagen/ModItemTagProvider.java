@@ -31,7 +31,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.FIR_PLANKS.asItem())
                 .add(ModBlocks.FIR_PLANKS_CARVED.asItem())
                 .add(ModBlocks.PALM_PLANKS.asItem())
-                .add(ModBlocks.PALM_PLANKS_CARVED.asItem());
+                .add(ModBlocks.PALM_PLANKS_CARVED.asItem())
+                .add(ModBlocks.BAYOU_PLANKS.asItem())
+                .add(ModBlocks.BAYOU_PLANKS_CARVED.asItem());
 
         getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.MAPLE_LOG.asItem())
@@ -49,6 +51,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PALM_LOG.asItem())
                 .add(ModBlocks.STRIPPED_PALM_LOG.asItem())
                 .add(ModBlocks.PALM_WOOD.asItem())
-                .add(ModBlocks.STRIPPED_PALM_WOOD.asItem());
+                .add(ModBlocks.STRIPPED_PALM_WOOD.asItem())
+                .add(ModBlocks.BAYOU_LOG.asItem())
+                .add(ModBlocks.STRIPPED_BAYOU_LOG.asItem())
+                .add(ModBlocks.BAYOU_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_BAYOU_WOOD.asItem());
     }
 }

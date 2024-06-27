@@ -77,7 +77,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PALM_BUTTON)
                 .add(ModBlocks.PALM_PRESSURE_PLATE)
                 .add(ModBlocks.PALM_FENCE)
-                .add(ModBlocks.PALM_FENCE_GATE);
+                .add(ModBlocks.PALM_FENCE_GATE)
+                        .add(ModBlocks.BAYOU_PLANKS)
+                .add(ModBlocks.BAYOU_PLANKS_CARVED)
+                .add(ModBlocks.BAYOU_LOG)
+                .add(ModBlocks.STRIPPED_BAYOU_LOG)
+                .add(ModBlocks.BAYOU_WOOD)
+                .add(ModBlocks.STRIPPED_BAYOU_WOOD)
+                .add(ModBlocks.BAYOU_STAIRS)
+                .add(ModBlocks.BAYOU_SLAB)
+                .add(ModBlocks.BAYOU_BUTTON)
+                .add(ModBlocks.BAYOU_PRESSURE_PLATE)
+                .add(ModBlocks.BAYOU_FENCE)
+                .add(ModBlocks.BAYOU_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.ORANGE_MAPLE_LEAVES)
@@ -85,7 +97,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLEAK_LEAVES)
                 .add(ModBlocks.ORANGE_FIR_LEAVES)
                 .add(ModBlocks.GREEN_FIR_LEAVES)
-                .add(ModBlocks.PALM_LEAVES);
+                .add(ModBlocks.PALM_LEAVES)
+                        .add(ModBlocks.BAYOU_LEAVES);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.PLATINUM_ORE)
@@ -112,16 +125,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STRIPPED_PALM_LOG)
                 .add(ModBlocks.PALM_WOOD)
                 .add(ModBlocks.STRIPPED_PALM_WOOD)
-                .add(ModBlocks.PALM_CROWN);
+                .add(ModBlocks.PALM_CROWN)
+                .add(ModBlocks.BAYOU_LOG)
+                .add(ModBlocks.STRIPPED_BAYOU_LOG)
+                .add(ModBlocks.BAYOU_WOOD)
+                .add(ModBlocks.STRIPPED_BAYOU_WOOD);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.MAPLE_FENCE)
                 .add(ModBlocks.BLEAK_FENCE)
-                .add(ModBlocks.PALM_FENCE);
+                .add(ModBlocks.PALM_FENCE)
+                .add(ModBlocks.BAYOU_FENCE);
+
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.MAPLE_FENCE_GATE)
                 .add(ModBlocks.BLEAK_FENCE_GATE)
-                .add(ModBlocks.PALM_FENCE_GATE);
+                .add(ModBlocks.PALM_FENCE_GATE)
+                .add(ModBlocks.BAYOU_FENCE_GATE);
 
     }
 }

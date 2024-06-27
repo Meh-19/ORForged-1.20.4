@@ -89,5 +89,21 @@
   "block.orforged.palm_button": "Palm Button",
   "block.orforged.palm_pressure_plate": "Palm Pressure Plate",
   "block.orforged.palm_fence": "Palm Fence",
-  "block.orforged.palm_fence_gate": "Palm Fence Gate"
+  "block.orforged.palm_fence_gate": "Palm Fence Gate",
+
+
+  "block.orforged.bayou_log": "Bayou Log",
+  "block.orforged.stripped_bayou_log": "Stripped Bayou Log",
+  "block.orforged.bayou_wood": "Bayou Wood",
+  "block.orforged.stripped_bayou_wood": "Stripped Bayou Wood",
+
+  "block.orforged.bayou_leaves": "Bayou Leaves",
+  "block.orforged.bayou_planks": "Bayou Planks",
+  "block.orforged.bayou_planks_carved": "Carved Bayou Planks",
+  "block.orforged.bayou_stairs": "Bayou Stairs",
+  "block.orforged.bayou_slab": "Bayou Slab",
+  "block.orforged.bayou_button": "Bayou Button",
+  "block.orforged.bayou_pressure_plate": "Bayou Pressure Plate",
+  "block.orforged.bayou_fence": "Bayou Fence",
+  "block.orforged.bayou_fence_gate": "Bayou Fence Gate"
 }

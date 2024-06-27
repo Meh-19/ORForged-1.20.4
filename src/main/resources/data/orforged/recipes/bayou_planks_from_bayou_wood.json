@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "orforged:bayou_wood"
+    }
+  ],
+  "result": {
+    "item": "orforged:bayou_planks",
+    "count": 4
+  }
+}
