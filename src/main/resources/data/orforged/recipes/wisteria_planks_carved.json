@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:wisteria_slab"
+    }
+  },
+  "result": {
+    "item": "orforged:wisteria_planks_carved"
+  }
+}

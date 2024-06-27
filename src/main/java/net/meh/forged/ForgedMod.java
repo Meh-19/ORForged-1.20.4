@@ -78,5 +78,20 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAYOU_PLANKS,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAYOU_PLANKS_CARVED,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAYOU_LEAVES,30,60);;
+
+		StrippableBlockRegistry.register(ModBlocks.WISTERIA_LOG, ModBlocks.STRIPPED_WISTERIA_LOG);
+		StrippableBlockRegistry.register(ModBlocks.WISTERIA_WOOD, ModBlocks.STRIPPED_WISTERIA_WOOD);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_LOG,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_WOOD,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_WISTERIA_LOG,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_WISTERIA_WOOD,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_PLANKS_CARVED,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_LEAVES,30,60);;
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_FLOWERS_BLUE,30,60);;
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_FLOWERS_PINK,30,60);;
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_FLOWERS_PURPLE,30,60);;
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_FLOWERS_WHITE,30,60);;
 	}
 }

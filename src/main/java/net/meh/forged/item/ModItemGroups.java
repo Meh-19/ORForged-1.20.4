@@ -117,6 +117,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BAYOU_PLANKS_CARVED);
                         entries.add(ModBlocks.BAYOU_LEAVES);
 
+                        entries.add(ModBlocks.WISTERIA_LOG);
+                        entries.add(ModBlocks.STRIPPED_WISTERIA_LOG);
+                        entries.add(ModBlocks.WISTERIA_WOOD);
+                        entries.add(ModBlocks.STRIPPED_WISTERIA_WOOD);
+                        entries.add(ModBlocks.WISTERIA_PLANKS);
+                        entries.add(ModBlocks.WISTERIA_STAIRS);
+                        entries.add(ModBlocks.WISTERIA_SLAB);
+                        entries.add(ModBlocks.WISTERIA_FENCE);
+                        entries.add(ModBlocks.WISTERIA_FENCE_GATE);
+                        entries.add(ModBlocks.WISTERIA_BUTTON);
+                        entries.add(ModBlocks.WISTERIA_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WISTERIA_PLANKS_CARVED);
+                        entries.add(ModBlocks.WISTERIA_LEAVES);
+                        entries.add(ModBlocks.WISTERIA_FLOWERS_BLUE);
+                        entries.add(ModBlocks.WISTERIA_FLOWERS_PINK);
+                        entries.add(ModBlocks.WISTERIA_FLOWERS_PURPLE);
+                        entries.add(ModBlocks.WISTERIA_FLOWERS_WHITE);
+
 
 
 

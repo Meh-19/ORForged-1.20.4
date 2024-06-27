@@ -200,6 +200,45 @@ public class ModBlocks {
     public static final Block BAYOU_FENCE_GATE = registerBlock("bayou_fence_gate",
             new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
+    public static final Block WISTERIA_LOG = registerBlock("wisteria_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+    public static final Block WISTERIA_WOOD = registerBlock("wisteria_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
+    public static final Block STRIPPED_WISTERIA_LOG = registerBlock("stripped_wisteria_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(4f)));
+    public static final Block STRIPPED_WISTERIA_WOOD = registerBlock("stripped_wisteria_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+
+    public static final Block WISTERIA_PLANKS = registerBlock("wisteria_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block WISTERIA_PLANKS_CARVED = registerBlock("wisteria_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block WISTERIA_LEAVES = registerBlock("wisteria_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.2F).nonOpaque()));
+    public static final Block WISTERIA_FLOWERS_BLUE = registerBlock("wisteria_flowers_blue",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.2F).nonOpaque()));
+    public static final Block WISTERIA_FLOWERS_PINK = registerBlock("wisteria_flowers_pink",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.2F).nonOpaque()));
+    public static final Block WISTERIA_FLOWERS_PURPLE = registerBlock("wisteria_flowers_purple",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.2F).nonOpaque()));
+    public static final Block WISTERIA_FLOWERS_WHITE = registerBlock("wisteria_flowers_white",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.2F).nonOpaque()));
+
+    public static final Block WISTERIA_STAIRS = registerBlock("wisteria_stairs",
+            new StairsBlock(ModBlocks.WISTERIA_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block WISTERIA_SLAB = registerBlock("wisteria_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block WISTERIA_BUTTON = registerBlock("wisteria_button",
+            new ButtonBlock(BlockSetType.OAK, 15, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block WISTERIA_PRESSURE_PLATE = registerBlock("wisteria_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block WISTERIA_FENCE = registerBlock("wisteria_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block WISTERIA_FENCE_GATE = registerBlock("wisteria_fence_gate",
+            new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(PLATINUM_BLOCK);

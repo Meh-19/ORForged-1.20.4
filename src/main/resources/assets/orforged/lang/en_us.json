@@ -105,5 +105,24 @@
   "block.orforged.bayou_button": "Bayou Button",
   "block.orforged.bayou_pressure_plate": "Bayou Pressure Plate",
   "block.orforged.bayou_fence": "Bayou Fence",
-  "block.orforged.bayou_fence_gate": "Bayou Fence Gate"
+  "block.orforged.bayou_fence_gate": "Bayou Fence Gate",
+
+  "block.orforged.wisteria_log": "Wisteria Log",
+  "block.orforged.stripped_wisteria_log": "Stripped Wisteria Log",
+  "block.orforged.wisteria_wood": "Wisteria Wood",
+  "block.orforged.stripped_wisteria_wood": "Stripped Wisteria Wood",
+
+  "block.orforged.wisteria_leaves": "Wisteria Leaves",
+  "block.orforged.wisteria_flowers_blue": "Blue Wisteria Flowers",
+  "block.orforged.wisteria_flowers_pink": "Pink Wisteria Flowers",
+  "block.orforged.wisteria_flowers_purple": "Purple Wisteria Flowers",
+  "block.orforged.wisteria_flowers_white": "White Wisteria Flowers",
+  "block.orforged.wisteria_planks": "Wisteria Planks",
+  "block.orforged.wisteria_planks_carved": "Carved Wisteria Planks",
+  "block.orforged.wisteria_stairs": "Wisteria Stairs",
+  "block.orforged.wisteria_slab": "Wisteria Slab",
+  "block.orforged.wisteria_button": "Wisteria Button",
+  "block.orforged.wisteria_pressure_plate": "Wisteria Pressure Plate",
+  "block.orforged.wisteria_fence": "Wisteria Fence",
+  "block.orforged.wisteria_fence_gate": "Wisteria Fence Gate"
 }

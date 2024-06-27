@@ -109,5 +109,25 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BAYOU_SLAB, slabDrops(ModBlocks.BAYOU_SLAB));
 
         addDrop(ModBlocks.BAYOU_LEAVES, leavesDrops(ModBlocks.BAYOU_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
+
+        addDrop(ModBlocks.WISTERIA_LOG);
+        addDrop(ModBlocks.STRIPPED_WISTERIA_LOG);
+        addDrop(ModBlocks.WISTERIA_WOOD);
+        addDrop(ModBlocks.STRIPPED_WISTERIA_WOOD);
+        addDrop(ModBlocks.WISTERIA_PLANKS);
+        addDrop(ModBlocks.WISTERIA_PLANKS_CARVED);
+
+        addDrop(ModBlocks.WISTERIA_STAIRS);
+        addDrop(ModBlocks.WISTERIA_BUTTON);
+        addDrop(ModBlocks.WISTERIA_PRESSURE_PLATE);
+        addDrop(ModBlocks.WISTERIA_FENCE);
+        addDrop(ModBlocks.WISTERIA_FENCE_GATE);
+        addDrop(ModBlocks.WISTERIA_SLAB, slabDrops(ModBlocks.WISTERIA_SLAB));
+
+        addDrop(ModBlocks.WISTERIA_LEAVES, leavesDrops(ModBlocks.WISTERIA_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
+        addDrop(ModBlocks.WISTERIA_FLOWERS_BLUE, leavesDrops(ModBlocks.WISTERIA_FLOWERS_BLUE, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
+        addDrop(ModBlocks.WISTERIA_FLOWERS_PINK, leavesDrops(ModBlocks.WISTERIA_FLOWERS_PINK, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
+        addDrop(ModBlocks.WISTERIA_FLOWERS_PURPLE, leavesDrops(ModBlocks.WISTERIA_FLOWERS_PURPLE, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
+        addDrop(ModBlocks.WISTERIA_FLOWERS_WHITE, leavesDrops(ModBlocks.WISTERIA_FLOWERS_WHITE, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
     }
 }

@@ -78,7 +78,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PALM_PRESSURE_PLATE)
                 .add(ModBlocks.PALM_FENCE)
                 .add(ModBlocks.PALM_FENCE_GATE)
-                        .add(ModBlocks.BAYOU_PLANKS)
+                .add(ModBlocks.BAYOU_PLANKS)
                 .add(ModBlocks.BAYOU_PLANKS_CARVED)
                 .add(ModBlocks.BAYOU_LOG)
                 .add(ModBlocks.STRIPPED_BAYOU_LOG)
@@ -89,7 +89,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BAYOU_BUTTON)
                 .add(ModBlocks.BAYOU_PRESSURE_PLATE)
                 .add(ModBlocks.BAYOU_FENCE)
-                .add(ModBlocks.BAYOU_FENCE_GATE);
+                .add(ModBlocks.BAYOU_FENCE_GATE)
+                .add(ModBlocks.WISTERIA_PLANKS)
+                .add(ModBlocks.WISTERIA_PLANKS_CARVED)
+                .add(ModBlocks.WISTERIA_LOG)
+                .add(ModBlocks.STRIPPED_WISTERIA_LOG)
+                .add(ModBlocks.WISTERIA_WOOD)
+                .add(ModBlocks.STRIPPED_WISTERIA_WOOD)
+                .add(ModBlocks.WISTERIA_STAIRS)
+                .add(ModBlocks.WISTERIA_SLAB)
+                .add(ModBlocks.WISTERIA_BUTTON)
+                .add(ModBlocks.WISTERIA_PRESSURE_PLATE)
+                .add(ModBlocks.WISTERIA_FENCE)
+                .add(ModBlocks.WISTERIA_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.ORANGE_MAPLE_LEAVES)
@@ -98,7 +110,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ORANGE_FIR_LEAVES)
                 .add(ModBlocks.GREEN_FIR_LEAVES)
                 .add(ModBlocks.PALM_LEAVES)
-                        .add(ModBlocks.BAYOU_LEAVES);
+                .add(ModBlocks.BAYOU_LEAVES)
+                .add(ModBlocks.WISTERIA_LEAVES)
+                .add(ModBlocks.WISTERIA_FLOWERS_BLUE)
+                .add(ModBlocks.WISTERIA_FLOWERS_PINK)
+                .add(ModBlocks.WISTERIA_FLOWERS_PURPLE)
+                .add(ModBlocks.WISTERIA_FLOWERS_WHITE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.PLATINUM_ORE)
@@ -129,19 +146,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BAYOU_LOG)
                 .add(ModBlocks.STRIPPED_BAYOU_LOG)
                 .add(ModBlocks.BAYOU_WOOD)
-                .add(ModBlocks.STRIPPED_BAYOU_WOOD);
+                .add(ModBlocks.STRIPPED_BAYOU_WOOD)
+                .add(ModBlocks.WISTERIA_LOG)
+                .add(ModBlocks.STRIPPED_WISTERIA_LOG)
+                .add(ModBlocks.WISTERIA_WOOD)
+                .add(ModBlocks.STRIPPED_WISTERIA_WOOD);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.MAPLE_FENCE)
                 .add(ModBlocks.BLEAK_FENCE)
                 .add(ModBlocks.PALM_FENCE)
-                .add(ModBlocks.BAYOU_FENCE);
+                .add(ModBlocks.BAYOU_FENCE)
+                .add(ModBlocks.WISTERIA_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.MAPLE_FENCE_GATE)
                 .add(ModBlocks.BLEAK_FENCE_GATE)
                 .add(ModBlocks.PALM_FENCE_GATE)
-                .add(ModBlocks.BAYOU_FENCE_GATE);
+                .add(ModBlocks.BAYOU_FENCE_GATE)
+                .add(ModBlocks.WISTERIA_FENCE_GATE);
 
     }
 }

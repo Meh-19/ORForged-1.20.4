@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:wisteria_planks"
+    }
+  },
+  "result": {
+    "item": "orforged:wisteria_stairs",
+    "count": 4
+  }
+}

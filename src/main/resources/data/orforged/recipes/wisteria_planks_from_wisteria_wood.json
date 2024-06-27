@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "orforged:wisteria_wood"
+    }
+  ],
+  "result": {
+    "item": "orforged:wisteria_planks",
+    "count": 4
+  }
+}

@@ -96,6 +96,23 @@ public class ModModelProvider extends FabricModelProvider {
         bayouPool.fence(ModBlocks.BAYOU_FENCE);
         bayouPool.fenceGate(ModBlocks.BAYOU_FENCE_GATE);
 
+        blockStateModelGenerator.registerLog(ModBlocks.WISTERIA_LOG).log(ModBlocks.WISTERIA_LOG).wood(ModBlocks.WISTERIA_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_WISTERIA_LOG).log(ModBlocks.STRIPPED_WISTERIA_LOG).wood(ModBlocks.STRIPPED_WISTERIA_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WISTERIA_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WISTERIA_FLOWERS_WHITE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WISTERIA_FLOWERS_BLUE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WISTERIA_FLOWERS_PINK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WISTERIA_FLOWERS_PURPLE);
+        BlockStateModelGenerator.BlockTexturePool wisteriaPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WISTERIA_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WISTERIA_PLANKS_CARVED);
+
+        wisteriaPool.stairs(ModBlocks.WISTERIA_STAIRS);
+        wisteriaPool.slab(ModBlocks.WISTERIA_SLAB);
+        wisteriaPool.button(ModBlocks.WISTERIA_BUTTON);
+        wisteriaPool.pressurePlate(ModBlocks.WISTERIA_PRESSURE_PLATE);
+        wisteriaPool.fence(ModBlocks.WISTERIA_FENCE);
+        wisteriaPool.fenceGate(ModBlocks.WISTERIA_FENCE_GATE);
+
     }
 
     @Override
