@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "orforged:block/baobab_slab"
+    },
+    "type=double": {
+      "model": "orforged:block/baobab_planks"
+    },
+    "type=top": {
+      "model": "orforged:block/baobab_slab_top"
+    }
+  }
+}

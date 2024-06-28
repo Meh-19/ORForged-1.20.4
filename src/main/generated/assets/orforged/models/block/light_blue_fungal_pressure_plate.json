@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "orforged:block/light_blue_fungal_planks"
+  }
+}

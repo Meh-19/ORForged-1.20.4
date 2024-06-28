@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "orforged:purple_fungal_planks"
+    }
+  ],
+  "result": {
+    "item": "orforged:purple_fungal_button"
+  }
+}

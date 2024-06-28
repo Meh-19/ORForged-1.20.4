@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "orforged:gray_fungal_planks"
+    }
+  },
+  "pattern": [
+    "IPI",
+    "IPI"
+  ],
+  "result": {
+    "item": "orforged:gray_fungal_fence_gate"
+  }
+}

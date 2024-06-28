@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "orforged:block/palm_planks",
+    "side": "orforged:block/palm_planks",
+    "top": "orforged:block/palm_planks"
+  }
+}

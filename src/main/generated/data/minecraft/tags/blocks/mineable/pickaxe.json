@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "orforged:platinum_ore",
+    "orforged:deepslate_platinum_ore",
+    "orforged:platinum_block",
+    "orforged:platinum_bricks",
+    "orforged:platinum_pillar",
+    "orforged:ruby_ore",
+    "orforged:deepslate_ruby_ore",
+    "orforged:ruby_block",
+    "orforged:ruby_bricks",
+    "orforged:ruby_pillar"
+  ]
+}

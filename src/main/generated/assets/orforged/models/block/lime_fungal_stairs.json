@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "orforged:block/lime_fungal_planks",
+    "side": "orforged:block/lime_fungal_planks",
+    "top": "orforged:block/lime_fungal_planks"
+  }
+}

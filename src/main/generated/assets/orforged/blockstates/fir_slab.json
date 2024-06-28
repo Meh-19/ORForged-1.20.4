@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "orforged:block/fir_slab"
+    },
+    "type=double": {
+      "model": "orforged:block/fir_planks"
+    },
+    "type=top": {
+      "model": "orforged:block/fir_slab_top"
+    }
+  }
+}

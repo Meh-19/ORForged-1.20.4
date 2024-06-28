@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "minecraft:yellow_dye"
+    },
+    "P": {
+      "item": "orforged:fungal_planks"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PIP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "item": "orforged:yellow_fungal_planks"
+  }
+}

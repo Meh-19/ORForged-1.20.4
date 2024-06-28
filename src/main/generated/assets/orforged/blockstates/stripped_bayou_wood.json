@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "orforged:block/stripped_bayou_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "orforged:block/stripped_bayou_wood"
+    },
+    "axis=z": {
+      "model": "orforged:block/stripped_bayou_wood",
+      "x": 90
+    }
+  }
+}

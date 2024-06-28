@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "orforged:block/cyan_fungal_planks"
+  }
+}

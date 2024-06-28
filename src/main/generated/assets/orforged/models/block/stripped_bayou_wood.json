@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "orforged:block/stripped_bayou_log",
+    "side": "orforged:block/stripped_bayou_log"
+  }
+}

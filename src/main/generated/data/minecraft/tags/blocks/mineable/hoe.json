@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "orforged:orange_maple_leaves",
+    "orforged:red_maple_leaves",
+    "orforged:bleak_leaves",
+    "orforged:orange_fir_leaves",
+    "orforged:green_fir_leaves",
+    "orforged:palm_leaves",
+    "orforged:bayou_leaves",
+    "orforged:wisteria_leaves",
+    "orforged:wisteria_flowers_blue",
+    "orforged:wisteria_flowers_pink",
+    "orforged:wisteria_flowers_purple",
+    "orforged:wisteria_flowers_white",
+    "orforged:baobab_leaves"
+  ]
+}

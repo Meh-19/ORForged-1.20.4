@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "orforged:block/bleak_slab"
+    },
+    "type=double": {
+      "model": "orforged:block/bleak_planks"
+    },
+    "type=top": {
+      "model": "orforged:block/bleak_slab_top"
+    }
+  }
+}

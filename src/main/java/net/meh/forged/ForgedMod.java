@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.meh.forged.block.ModBlocks;
+import net.meh.forged.datagen.ModRecipeProvider;
 import net.meh.forged.item.ModItemGroups;
 import net.meh.forged.item.ModItems;
 import org.slf4j.Logger;
@@ -103,6 +104,25 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BAOBAB_WOOD,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_PLANKS,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_PLANKS_CARVED,5,20);
-		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_LEAVES,30,60);;
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_LEAVES,30,60);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FUNGAL_PLANKS_CARVED, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WHITE_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.LIGHT_GRAY_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.GRAY_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLACK_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BROWN_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.RED_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.ORANGE_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.YELLOW_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.LIME_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.GREEN_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CYAN_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.LIGHT_BLUE_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLUE_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PURPLE_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAGENTA_FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PINK_FUNGAL_PLANKS, 5, 20);
+
 	}
 }

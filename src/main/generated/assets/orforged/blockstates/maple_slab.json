@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "orforged:block/maple_slab"
+    },
+    "type=double": {
+      "model": "orforged:block/maple_planks"
+    },
+    "type=top": {
+      "model": "orforged:block/maple_slab_top"
+    }
+  }
+}

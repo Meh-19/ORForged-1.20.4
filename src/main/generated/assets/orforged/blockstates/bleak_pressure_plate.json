@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "orforged:block/bleak_pressure_plate"
+    },
+    "powered=true": {
+      "model": "orforged:block/bleak_pressure_plate_down"
+    }
+  }
+}

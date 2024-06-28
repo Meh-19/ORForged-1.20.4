@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "orforged:block/black_fungal_pressure_plate"
+    },
+    "powered=true": {
+      "model": "orforged:block/black_fungal_pressure_plate_down"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "orforged:block/brown_fungal_planks",
+    "side": "orforged:block/brown_fungal_planks",
+    "top": "orforged:block/brown_fungal_planks"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "orforged:maple_fence_gate",
+    "orforged:bleak_fence_gate",
+    "orforged:palm_fence_gate",
+    "orforged:bayou_fence_gate",
+    "orforged:wisteria_fence_gate",
+    "orforged:baobab_fence_gate",
+    "orforged:fungal_fence_gate",
+    "orforged:white_fungal_fence_gate",
+    "orforged:light_gray_fungal_fence_gate",
+    "orforged:gray_fungal_fence_gate",
+    "orforged:black_fungal_fence_gate",
+    "orforged:brown_fungal_fence_gate",
+    "orforged:red_fungal_fence_gate",
+    "orforged:orange_fungal_fence_gate",
+    "orforged:yellow_fungal_fence_gate",
+    "orforged:lime_fungal_fence_gate",
+    "orforged:green_fungal_fence_gate",
+    "orforged:cyan_fungal_fence_gate",
+    "orforged:light_blue_fungal_fence_gate",
+    "orforged:blue_fungal_fence_gate",
+    "orforged:purple_fungal_fence_gate",
+    "orforged:magenta_fungal_fence_gate",
+    "orforged:pink_fungal_fence_gate"
+  ]
+}

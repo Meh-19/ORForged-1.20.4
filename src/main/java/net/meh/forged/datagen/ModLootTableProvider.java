@@ -145,5 +145,142 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BAOBAB_SLAB, slabDrops(ModBlocks.BAOBAB_SLAB));
 
         addDrop(ModBlocks.BAOBAB_LEAVES, leavesDrops(ModBlocks.BAOBAB_LEAVES, ModBlocks.RUBY_BLOCK, 0.005f)); //TODO
+
+        addDrop(ModBlocks.FUNGAL_PLANKS_CARVED);
+        addDrop(ModBlocks.FUNGAL_PLANKS);
+        addDrop(ModBlocks.FUNGAL_STAIRS);
+        addDrop(ModBlocks.FUNGAL_BUTTON);
+        addDrop(ModBlocks.FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.FUNGAL_FENCE);
+        addDrop(ModBlocks.FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.FUNGAL_SLAB, slabDrops(ModBlocks.FUNGAL_SLAB));
+
+        addDrop(ModBlocks.WHITE_FUNGAL_PLANKS);
+        addDrop(ModBlocks.WHITE_FUNGAL_STAIRS);
+        addDrop(ModBlocks.WHITE_FUNGAL_BUTTON);
+        addDrop(ModBlocks.WHITE_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.WHITE_FUNGAL_FENCE);
+        addDrop(ModBlocks.WHITE_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.WHITE_FUNGAL_SLAB, slabDrops(ModBlocks.WHITE_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.LIGHT_GRAY_FUNGAL_PLANKS);
+        addDrop(ModBlocks.LIGHT_GRAY_FUNGAL_STAIRS);
+        addDrop(ModBlocks.LIGHT_GRAY_FUNGAL_BUTTON);
+        addDrop(ModBlocks.LIGHT_GRAY_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_GRAY_FUNGAL_FENCE);
+        addDrop(ModBlocks.LIGHT_GRAY_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.LIGHT_GRAY_FUNGAL_SLAB, slabDrops(ModBlocks.LIGHT_GRAY_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.GRAY_FUNGAL_PLANKS);
+        addDrop(ModBlocks.GRAY_FUNGAL_STAIRS);
+        addDrop(ModBlocks.GRAY_FUNGAL_BUTTON);
+        addDrop(ModBlocks.GRAY_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.GRAY_FUNGAL_FENCE);
+        addDrop(ModBlocks.GRAY_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.GRAY_FUNGAL_SLAB, slabDrops(ModBlocks.GRAY_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.BLACK_FUNGAL_PLANKS);
+        addDrop(ModBlocks.BLACK_FUNGAL_STAIRS);
+        addDrop(ModBlocks.BLACK_FUNGAL_BUTTON);
+        addDrop(ModBlocks.BLACK_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLACK_FUNGAL_FENCE);
+        addDrop(ModBlocks.BLACK_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.BLACK_FUNGAL_SLAB, slabDrops(ModBlocks.BLACK_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.BROWN_FUNGAL_PLANKS);
+        addDrop(ModBlocks.BROWN_FUNGAL_STAIRS);
+        addDrop(ModBlocks.BROWN_FUNGAL_BUTTON);
+        addDrop(ModBlocks.BROWN_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.BROWN_FUNGAL_FENCE);
+        addDrop(ModBlocks.BROWN_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.BROWN_FUNGAL_SLAB, slabDrops(ModBlocks.BROWN_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.RED_FUNGAL_PLANKS);
+        addDrop(ModBlocks.RED_FUNGAL_STAIRS);
+        addDrop(ModBlocks.RED_FUNGAL_BUTTON);
+        addDrop(ModBlocks.RED_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.RED_FUNGAL_FENCE);
+        addDrop(ModBlocks.RED_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.RED_FUNGAL_SLAB, slabDrops(ModBlocks.RED_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.ORANGE_FUNGAL_PLANKS);
+        addDrop(ModBlocks.ORANGE_FUNGAL_STAIRS);
+        addDrop(ModBlocks.ORANGE_FUNGAL_BUTTON);
+        addDrop(ModBlocks.ORANGE_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.ORANGE_FUNGAL_FENCE);
+        addDrop(ModBlocks.ORANGE_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.ORANGE_FUNGAL_SLAB, slabDrops(ModBlocks.ORANGE_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.YELLOW_FUNGAL_PLANKS);
+        addDrop(ModBlocks.YELLOW_FUNGAL_STAIRS);
+        addDrop(ModBlocks.YELLOW_FUNGAL_BUTTON);
+        addDrop(ModBlocks.YELLOW_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.YELLOW_FUNGAL_FENCE);
+        addDrop(ModBlocks.YELLOW_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.YELLOW_FUNGAL_SLAB, slabDrops(ModBlocks.YELLOW_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.LIME_FUNGAL_PLANKS);
+        addDrop(ModBlocks.LIME_FUNGAL_STAIRS);
+        addDrop(ModBlocks.LIME_FUNGAL_BUTTON);
+        addDrop(ModBlocks.LIME_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIME_FUNGAL_FENCE);
+        addDrop(ModBlocks.LIME_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.LIME_FUNGAL_SLAB, slabDrops(ModBlocks.LIME_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.GREEN_FUNGAL_PLANKS);
+        addDrop(ModBlocks.GREEN_FUNGAL_STAIRS);
+        addDrop(ModBlocks.GREEN_FUNGAL_BUTTON);
+        addDrop(ModBlocks.GREEN_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.GREEN_FUNGAL_FENCE);
+        addDrop(ModBlocks.GREEN_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.GREEN_FUNGAL_SLAB, slabDrops(ModBlocks.GREEN_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.CYAN_FUNGAL_PLANKS);
+        addDrop(ModBlocks.CYAN_FUNGAL_STAIRS);
+        addDrop(ModBlocks.CYAN_FUNGAL_BUTTON);
+        addDrop(ModBlocks.CYAN_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.CYAN_FUNGAL_FENCE);
+        addDrop(ModBlocks.CYAN_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.CYAN_FUNGAL_SLAB, slabDrops(ModBlocks.CYAN_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.LIGHT_BLUE_FUNGAL_PLANKS);
+        addDrop(ModBlocks.LIGHT_BLUE_FUNGAL_STAIRS);
+        addDrop(ModBlocks.LIGHT_BLUE_FUNGAL_BUTTON);
+        addDrop(ModBlocks.LIGHT_BLUE_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_BLUE_FUNGAL_FENCE);
+        addDrop(ModBlocks.LIGHT_BLUE_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.LIGHT_BLUE_FUNGAL_SLAB, slabDrops(ModBlocks.LIGHT_BLUE_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.BLUE_FUNGAL_PLANKS);
+        addDrop(ModBlocks.BLUE_FUNGAL_STAIRS);
+        addDrop(ModBlocks.BLUE_FUNGAL_BUTTON);
+        addDrop(ModBlocks.BLUE_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.BLUE_FUNGAL_FENCE);
+        addDrop(ModBlocks.BLUE_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.BLUE_FUNGAL_SLAB, slabDrops(ModBlocks.BLUE_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.PURPLE_FUNGAL_PLANKS);
+        addDrop(ModBlocks.PURPLE_FUNGAL_STAIRS);
+        addDrop(ModBlocks.PURPLE_FUNGAL_BUTTON);
+        addDrop(ModBlocks.PURPLE_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.PURPLE_FUNGAL_FENCE);
+        addDrop(ModBlocks.PURPLE_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.PURPLE_FUNGAL_SLAB, slabDrops(ModBlocks.PURPLE_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.MAGENTA_FUNGAL_PLANKS);
+        addDrop(ModBlocks.MAGENTA_FUNGAL_STAIRS);
+        addDrop(ModBlocks.MAGENTA_FUNGAL_BUTTON);
+        addDrop(ModBlocks.MAGENTA_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.MAGENTA_FUNGAL_FENCE);
+        addDrop(ModBlocks.MAGENTA_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.MAGENTA_FUNGAL_SLAB, slabDrops(ModBlocks.MAGENTA_FUNGAL_SLAB));
+
+        addDrop(ModBlocks.PINK_FUNGAL_PLANKS);
+        addDrop(ModBlocks.PINK_FUNGAL_STAIRS);
+        addDrop(ModBlocks.PINK_FUNGAL_BUTTON);
+        addDrop(ModBlocks.PINK_FUNGAL_PRESSURE_PLATE);
+        addDrop(ModBlocks.PINK_FUNGAL_FENCE);
+        addDrop(ModBlocks.PINK_FUNGAL_FENCE_GATE);
+        addDrop(ModBlocks.PINK_FUNGAL_SLAB, slabDrops(ModBlocks.PINK_FUNGAL_SLAB));
     }
 }

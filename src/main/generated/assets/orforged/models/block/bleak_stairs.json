@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "orforged:block/bleak_planks",
+    "side": "orforged:block/bleak_planks",
+    "top": "orforged:block/bleak_planks"
+  }
+}

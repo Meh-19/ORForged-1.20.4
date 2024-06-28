@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "orforged:maple_log",
+    "orforged:stripped_maple_log",
+    "orforged:maple_wood",
+    "orforged:stripped_maple_wood",
+    "orforged:bleak_log",
+    "orforged:stripped_bleak_log",
+    "orforged:bleak_wood",
+    "orforged:stripped_bleak_wood",
+    "orforged:fir_log",
+    "orforged:stripped_fir_log",
+    "orforged:fir_wood",
+    "orforged:stripped_fir_wood",
+    "orforged:palm_log",
+    "orforged:stripped_palm_log",
+    "orforged:palm_wood",
+    "orforged:stripped_palm_wood",
+    "orforged:bayou_log",
+    "orforged:stripped_bayou_log",
+    "orforged:bayou_wood",
+    "orforged:stripped_bayou_wood",
+    "orforged:wisteria_log",
+    "orforged:stripped_wisteria_log",
+    "orforged:wisteria_wood",
+    "orforged:stripped_wisteria_wood",
+    "orforged:baobab_log",
+    "orforged:stripped_baobab_log",
+    "orforged:baobab_wood",
+    "orforged:stripped_baobab_wood"
+  ]
+}

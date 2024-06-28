@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "orforged:block/bayou_planks",
+    "side": "orforged:block/bayou_planks",
+    "top": "orforged:block/bayou_planks"
+  }
+}

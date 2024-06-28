@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "orforged:block/purple_fungal_slab"
+    },
+    "type=double": {
+      "model": "orforged:block/purple_fungal_planks"
+    },
+    "type=top": {
+      "model": "orforged:block/purple_fungal_slab_top"
+    }
+  }
+}

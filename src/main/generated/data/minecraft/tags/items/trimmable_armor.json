@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "orforged:platinum_helmet",
+    "orforged:platinum_chestplate",
+    "orforged:platinum_leggings",
+    "orforged:platinum_boots"
+  ]
+}

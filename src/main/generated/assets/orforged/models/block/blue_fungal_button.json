@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "orforged:block/blue_fungal_planks"
+  }
+}

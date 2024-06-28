@@ -126,6 +126,161 @@ public class ModModelProvider extends FabricModelProvider {
         baobabPool.fence(ModBlocks.BAOBAB_FENCE);
         baobabPool.fenceGate(ModBlocks.BAOBAB_FENCE_GATE);
 
+        BlockStateModelGenerator.BlockTexturePool fungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FUNGAL_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FUNGAL_PLANKS_CARVED);
+
+        fungalPool.stairs(ModBlocks.FUNGAL_STAIRS);
+        fungalPool.slab(ModBlocks.FUNGAL_SLAB);
+        fungalPool.button(ModBlocks.FUNGAL_BUTTON);
+        fungalPool.pressurePlate(ModBlocks.FUNGAL_PRESSURE_PLATE);
+        fungalPool.fence(ModBlocks.FUNGAL_FENCE);
+        fungalPool.fenceGate(ModBlocks.FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool whiteFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WHITE_FUNGAL_PLANKS);
+
+        whiteFungalPool.stairs(ModBlocks.WHITE_FUNGAL_STAIRS);
+        whiteFungalPool.slab(ModBlocks.WHITE_FUNGAL_SLAB);
+        whiteFungalPool.button(ModBlocks.WHITE_FUNGAL_BUTTON);
+        whiteFungalPool.pressurePlate(ModBlocks.WHITE_FUNGAL_PRESSURE_PLATE);
+        whiteFungalPool.fence(ModBlocks.WHITE_FUNGAL_FENCE);
+        whiteFungalPool.fenceGate(ModBlocks.WHITE_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool lightGrayFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LIGHT_GRAY_FUNGAL_PLANKS);
+
+        lightGrayFungalPool.stairs(ModBlocks.LIGHT_GRAY_FUNGAL_STAIRS);
+        lightGrayFungalPool.slab(ModBlocks.LIGHT_GRAY_FUNGAL_SLAB);
+        lightGrayFungalPool.button(ModBlocks.LIGHT_GRAY_FUNGAL_BUTTON);
+        lightGrayFungalPool.pressurePlate(ModBlocks.LIGHT_GRAY_FUNGAL_PRESSURE_PLATE);
+        lightGrayFungalPool.fence(ModBlocks.LIGHT_GRAY_FUNGAL_FENCE);
+        lightGrayFungalPool.fenceGate(ModBlocks.LIGHT_GRAY_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool grayFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRAY_FUNGAL_PLANKS);
+
+        grayFungalPool.stairs(ModBlocks.GRAY_FUNGAL_STAIRS);
+        grayFungalPool.slab(ModBlocks.GRAY_FUNGAL_SLAB);
+        grayFungalPool.button(ModBlocks.GRAY_FUNGAL_BUTTON);
+        grayFungalPool.pressurePlate(ModBlocks.GRAY_FUNGAL_PRESSURE_PLATE);
+        grayFungalPool.fence(ModBlocks.GRAY_FUNGAL_FENCE);
+        grayFungalPool.fenceGate(ModBlocks.GRAY_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool blackFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLACK_FUNGAL_PLANKS);
+
+        blackFungalPool.stairs(ModBlocks.BLACK_FUNGAL_STAIRS);
+        blackFungalPool.slab(ModBlocks.BLACK_FUNGAL_SLAB);
+        blackFungalPool.button(ModBlocks.BLACK_FUNGAL_BUTTON);
+        blackFungalPool.pressurePlate(ModBlocks.BLACK_FUNGAL_PRESSURE_PLATE);
+        blackFungalPool.fence(ModBlocks.BLACK_FUNGAL_FENCE);
+        blackFungalPool.fenceGate(ModBlocks.BLACK_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool brownFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BROWN_FUNGAL_PLANKS);
+
+        brownFungalPool.stairs(ModBlocks.BROWN_FUNGAL_STAIRS);
+        brownFungalPool.slab(ModBlocks.BROWN_FUNGAL_SLAB);
+        brownFungalPool.button(ModBlocks.BROWN_FUNGAL_BUTTON);
+        brownFungalPool.pressurePlate(ModBlocks.BROWN_FUNGAL_PRESSURE_PLATE);
+        brownFungalPool.fence(ModBlocks.BROWN_FUNGAL_FENCE);
+        brownFungalPool.fenceGate(ModBlocks.BROWN_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool redFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RED_FUNGAL_PLANKS);
+
+        redFungalPool.stairs(ModBlocks.RED_FUNGAL_STAIRS);
+        redFungalPool.slab(ModBlocks.RED_FUNGAL_SLAB);
+        redFungalPool.button(ModBlocks.RED_FUNGAL_BUTTON);
+        redFungalPool.pressurePlate(ModBlocks.RED_FUNGAL_PRESSURE_PLATE);
+        redFungalPool.fence(ModBlocks.RED_FUNGAL_FENCE);
+        redFungalPool.fenceGate(ModBlocks.RED_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool orangeFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ORANGE_FUNGAL_PLANKS);
+
+        orangeFungalPool.stairs(ModBlocks.ORANGE_FUNGAL_STAIRS);
+        orangeFungalPool.slab(ModBlocks.ORANGE_FUNGAL_SLAB);
+        orangeFungalPool.button(ModBlocks.ORANGE_FUNGAL_BUTTON);
+        orangeFungalPool.pressurePlate(ModBlocks.ORANGE_FUNGAL_PRESSURE_PLATE);
+        orangeFungalPool.fence(ModBlocks.ORANGE_FUNGAL_FENCE);
+        orangeFungalPool.fenceGate(ModBlocks.ORANGE_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool yellowFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.YELLOW_FUNGAL_PLANKS);
+
+        yellowFungalPool.stairs(ModBlocks.YELLOW_FUNGAL_STAIRS);
+        yellowFungalPool.slab(ModBlocks.YELLOW_FUNGAL_SLAB);
+        yellowFungalPool.button(ModBlocks.YELLOW_FUNGAL_BUTTON);
+        yellowFungalPool.pressurePlate(ModBlocks.YELLOW_FUNGAL_PRESSURE_PLATE);
+        yellowFungalPool.fence(ModBlocks.YELLOW_FUNGAL_FENCE);
+        yellowFungalPool.fenceGate(ModBlocks.YELLOW_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool limeFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LIME_FUNGAL_PLANKS);
+
+        limeFungalPool.stairs(ModBlocks.LIME_FUNGAL_STAIRS);
+        limeFungalPool.slab(ModBlocks.LIME_FUNGAL_SLAB);
+        limeFungalPool.button(ModBlocks.LIME_FUNGAL_BUTTON);
+        limeFungalPool.pressurePlate(ModBlocks.LIME_FUNGAL_PRESSURE_PLATE);
+        limeFungalPool.fence(ModBlocks.LIME_FUNGAL_FENCE);
+        limeFungalPool.fenceGate(ModBlocks.LIME_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool greenFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GREEN_FUNGAL_PLANKS);
+
+        greenFungalPool.stairs(ModBlocks.GREEN_FUNGAL_STAIRS);
+        greenFungalPool.slab(ModBlocks.GREEN_FUNGAL_SLAB);
+        greenFungalPool.button(ModBlocks.GREEN_FUNGAL_BUTTON);
+        greenFungalPool.pressurePlate(ModBlocks.GREEN_FUNGAL_PRESSURE_PLATE);
+        greenFungalPool.fence(ModBlocks.GREEN_FUNGAL_FENCE);
+        greenFungalPool.fenceGate(ModBlocks.GREEN_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool cyanFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CYAN_FUNGAL_PLANKS);
+
+        cyanFungalPool.stairs(ModBlocks.CYAN_FUNGAL_STAIRS);
+        cyanFungalPool.slab(ModBlocks.CYAN_FUNGAL_SLAB);
+        cyanFungalPool.button(ModBlocks.CYAN_FUNGAL_BUTTON);
+        cyanFungalPool.pressurePlate(ModBlocks.CYAN_FUNGAL_PRESSURE_PLATE);
+        cyanFungalPool.fence(ModBlocks.CYAN_FUNGAL_FENCE);
+        cyanFungalPool.fenceGate(ModBlocks.CYAN_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool lightBlueFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LIGHT_BLUE_FUNGAL_PLANKS);
+
+        lightBlueFungalPool.stairs(ModBlocks.LIGHT_BLUE_FUNGAL_STAIRS);
+        lightBlueFungalPool.slab(ModBlocks.LIGHT_BLUE_FUNGAL_SLAB);
+        lightBlueFungalPool.button(ModBlocks.LIGHT_BLUE_FUNGAL_BUTTON);
+        lightBlueFungalPool.pressurePlate(ModBlocks.LIGHT_BLUE_FUNGAL_PRESSURE_PLATE);
+        lightBlueFungalPool.fence(ModBlocks.LIGHT_BLUE_FUNGAL_FENCE);
+        lightBlueFungalPool.fenceGate(ModBlocks.LIGHT_BLUE_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool blueFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLUE_FUNGAL_PLANKS);
+
+        blueFungalPool.stairs(ModBlocks.BLUE_FUNGAL_STAIRS);
+        blueFungalPool.slab(ModBlocks.BLUE_FUNGAL_SLAB);
+        blueFungalPool.button(ModBlocks.BLUE_FUNGAL_BUTTON);
+        blueFungalPool.pressurePlate(ModBlocks.BLUE_FUNGAL_PRESSURE_PLATE);
+        blueFungalPool.fence(ModBlocks.BLUE_FUNGAL_FENCE);
+        blueFungalPool.fenceGate(ModBlocks.BLUE_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool purpleFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PURPLE_FUNGAL_PLANKS);
+
+        purpleFungalPool.stairs(ModBlocks.PURPLE_FUNGAL_STAIRS);
+        purpleFungalPool.slab(ModBlocks.PURPLE_FUNGAL_SLAB);
+        purpleFungalPool.button(ModBlocks.PURPLE_FUNGAL_BUTTON);
+        purpleFungalPool.pressurePlate(ModBlocks.PURPLE_FUNGAL_PRESSURE_PLATE);
+        purpleFungalPool.fence(ModBlocks.PURPLE_FUNGAL_FENCE);
+        purpleFungalPool.fenceGate(ModBlocks.PURPLE_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool magentaFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAGENTA_FUNGAL_PLANKS);
+
+        magentaFungalPool.stairs(ModBlocks.MAGENTA_FUNGAL_STAIRS);
+        magentaFungalPool.slab(ModBlocks.MAGENTA_FUNGAL_SLAB);
+        magentaFungalPool.button(ModBlocks.MAGENTA_FUNGAL_BUTTON);
+        magentaFungalPool.pressurePlate(ModBlocks.MAGENTA_FUNGAL_PRESSURE_PLATE);
+        magentaFungalPool.fence(ModBlocks.MAGENTA_FUNGAL_FENCE);
+        magentaFungalPool.fenceGate(ModBlocks.MAGENTA_FUNGAL_FENCE_GATE);
+
+        BlockStateModelGenerator.BlockTexturePool pinkFungalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINK_FUNGAL_PLANKS);
+
+        pinkFungalPool.stairs(ModBlocks.PINK_FUNGAL_STAIRS);
+        pinkFungalPool.slab(ModBlocks.PINK_FUNGAL_SLAB);
+        pinkFungalPool.button(ModBlocks.PINK_FUNGAL_BUTTON);
+        pinkFungalPool.pressurePlate(ModBlocks.PINK_FUNGAL_PRESSURE_PLATE);
+        pinkFungalPool.fence(ModBlocks.PINK_FUNGAL_FENCE);
+        pinkFungalPool.fenceGate(ModBlocks.PINK_FUNGAL_FENCE_GATE);
+
+
     }
 
     @Override

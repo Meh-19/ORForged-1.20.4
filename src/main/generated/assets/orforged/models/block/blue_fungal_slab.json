@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "orforged:block/blue_fungal_planks",
+    "side": "orforged:block/blue_fungal_planks",
+    "top": "orforged:block/blue_fungal_planks"
+  }
+}

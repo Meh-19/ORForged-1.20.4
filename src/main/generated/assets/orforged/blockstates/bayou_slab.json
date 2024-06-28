@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "orforged:block/bayou_slab"
+    },
+    "type=double": {
+      "model": "orforged:block/bayou_planks"
+    },
+    "type=top": {
+      "model": "orforged:block/bayou_slab_top"
+    }
+  }
+}

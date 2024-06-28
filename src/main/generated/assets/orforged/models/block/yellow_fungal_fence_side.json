@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "orforged:block/yellow_fungal_planks"
+  }
+}

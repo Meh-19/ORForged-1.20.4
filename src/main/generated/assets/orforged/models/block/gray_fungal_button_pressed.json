@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "orforged:block/gray_fungal_planks"
+  }
+}
