@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "orforged:fungal_slab"
+    }
+  },
+  "result": {
+    "item": "orforged:fungal_planks_carved"
+  }
+}

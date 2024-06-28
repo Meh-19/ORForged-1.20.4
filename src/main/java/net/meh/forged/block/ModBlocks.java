@@ -50,6 +50,8 @@ public class ModBlocks {
 
     public static final Block MAPLE_PLANKS = registerBlock("maple_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_MAPLE_PLANKS = registerBlock("vertical_maple_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block MAPLE_PLANKS_CARVED = registerBlock("maple_planks_carved",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block ORANGE_MAPLE_LEAVES = registerBlock("orange_maple_leaves",
@@ -83,6 +85,8 @@ public class ModBlocks {
 
     public static final Block BLEAK_PLANKS = registerBlock("bleak_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_BLEAK_PLANKS = registerBlock("vertical_bleak_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block BLEAK_PLANKS_CARVED = registerBlock("bleak_planks_carved",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block BLEAK_LEAVES = registerBlock("bleak_leaves",
@@ -113,6 +117,8 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
 
     public static final Block FIR_PLANKS = registerBlock("fir_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_FIR_PLANKS = registerBlock("vertical_fir_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block FIR_PLANKS_CARVED = registerBlock("fir_planks_carved",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
@@ -147,6 +153,8 @@ public class ModBlocks {
 
     public static final Block PALM_PLANKS = registerBlock("palm_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_PALM_PLANKS = registerBlock("vertical_palm_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block PALM_PLANKS_CARVED = registerBlock("palm_planks_carved",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block PALM_CROWN = registerBlock("palm_crown",
@@ -180,6 +188,8 @@ public class ModBlocks {
 
     public static final Block BAYOU_PLANKS = registerBlock("bayou_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_BAYOU_PLANKS = registerBlock("vertical_bayou_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block BAYOU_PLANKS_CARVED = registerBlock("bayou_planks_carved",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block BAYOU_LEAVES = registerBlock("bayou_leaves",
@@ -210,6 +220,8 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
 
     public static final Block WISTERIA_PLANKS = registerBlock("wisteria_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_WISTERIA_PLANKS = registerBlock("vertical_wisteria_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block WISTERIA_PLANKS_CARVED = registerBlock("wisteria_planks_carved",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
@@ -250,6 +262,8 @@ public class ModBlocks {
 
     public static final Block BAOBAB_PLANKS = registerBlock("baobab_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_BAOBAB_PLANKS = registerBlock("vertical_baobab_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block BAOBAB_PLANKS_CARVED = registerBlock("baobab_planks_carved",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block BAOBAB_LEAVES = registerBlock("baobab_leaves",
@@ -271,6 +285,8 @@ public class ModBlocks {
             new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
     public static final Block FUNGAL_PLANKS = registerBlock("fungal_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_FUNGAL_PLANKS = registerBlock("vertical_fungal_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
     public static final Block FUNGAL_PLANKS_CARVED = registerBlock("fungal_planks_carved",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));

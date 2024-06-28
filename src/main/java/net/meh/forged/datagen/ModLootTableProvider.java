@@ -32,6 +32,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MAPLE_WOOD);
         addDrop(ModBlocks.STRIPPED_MAPLE_WOOD);
         addDrop(ModBlocks.MAPLE_PLANKS);
+        addDrop(ModBlocks.VERTICAL_MAPLE_PLANKS);
         addDrop(ModBlocks.MAPLE_PLANKS_CARVED);
 
         addDrop(ModBlocks.MAPLE_STAIRS);
@@ -49,6 +50,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLEAK_WOOD);
         addDrop(ModBlocks.STRIPPED_BLEAK_WOOD);
         addDrop(ModBlocks.BLEAK_PLANKS);
+        addDrop(ModBlocks.VERTICAL_BLEAK_PLANKS);
         addDrop(ModBlocks.BLEAK_PLANKS_CARVED);
 
         addDrop(ModBlocks.BLEAK_STAIRS);
@@ -65,6 +67,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FIR_WOOD);
         addDrop(ModBlocks.STRIPPED_FIR_WOOD);
         addDrop(ModBlocks.FIR_PLANKS);
+        addDrop(ModBlocks.VERTICAL_FIR_PLANKS);
         addDrop(ModBlocks.FIR_PLANKS_CARVED);
 
         addDrop(ModBlocks.FIR_STAIRS);
@@ -82,6 +85,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PALM_WOOD);
         addDrop(ModBlocks.STRIPPED_PALM_WOOD);
         addDrop(ModBlocks.PALM_PLANKS);
+        addDrop(ModBlocks.VERTICAL_PALM_PLANKS);
         addDrop(ModBlocks.PALM_PLANKS_CARVED);
         addDrop(ModBlocks.PALM_CROWN);
 
@@ -99,6 +103,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BAYOU_WOOD);
         addDrop(ModBlocks.STRIPPED_BAYOU_WOOD);
         addDrop(ModBlocks.BAYOU_PLANKS);
+        addDrop(ModBlocks.VERTICAL_BAYOU_PLANKS);
         addDrop(ModBlocks.BAYOU_PLANKS_CARVED);
 
         addDrop(ModBlocks.BAYOU_STAIRS);
@@ -115,6 +120,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WISTERIA_WOOD);
         addDrop(ModBlocks.STRIPPED_WISTERIA_WOOD);
         addDrop(ModBlocks.WISTERIA_PLANKS);
+        addDrop(ModBlocks.VERTICAL_WISTERIA_PLANKS);
         addDrop(ModBlocks.WISTERIA_PLANKS_CARVED);
 
         addDrop(ModBlocks.WISTERIA_STAIRS);
@@ -135,6 +141,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BAOBAB_WOOD);
         addDrop(ModBlocks.STRIPPED_BAOBAB_WOOD);
         addDrop(ModBlocks.BAOBAB_PLANKS);
+        addDrop(ModBlocks.VERTICAL_BAOBAB_PLANKS);
         addDrop(ModBlocks.BAOBAB_PLANKS_CARVED);
 
         addDrop(ModBlocks.BAOBAB_STAIRS);
@@ -148,6 +155,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.FUNGAL_PLANKS_CARVED);
         addDrop(ModBlocks.FUNGAL_PLANKS);
+        addDrop(ModBlocks.VERTICAL_FUNGAL_PLANKS);
         addDrop(ModBlocks.FUNGAL_STAIRS);
         addDrop(ModBlocks.FUNGAL_BUTTON);
         addDrop(ModBlocks.FUNGAL_PRESSURE_PLATE);

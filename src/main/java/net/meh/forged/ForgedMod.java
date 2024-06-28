@@ -30,6 +30,7 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_MAPLE_LOG,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_MAPLE_WOOD,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.VERTICAL_MAPLE_PLANKS,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_PLANKS_CARVED,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.RED_MAPLE_LEAVES,30,60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.ORANGE_MAPLE_LEAVES,30,60);
@@ -42,6 +43,7 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BLEAK_LOG,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BLEAK_WOOD,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLEAK_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.VERTICAL_BLEAK_PLANKS,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLEAK_PLANKS_CARVED,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLEAK_LEAVES,30,60);
 
@@ -53,6 +55,7 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_FIR_LOG,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_FIR_WOOD,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FIR_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.VERTICAL_FIR_PLANKS,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FIR_PLANKS_CARVED,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.GREEN_FIR_LEAVES,30,60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.ORANGE_FIR_LEAVES,30,60);
@@ -65,6 +68,7 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_PALM_LOG,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_PALM_WOOD,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.VERTICAL_PALM_PLANKS,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_PLANKS_CARVED,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_CROWN,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_LEAVES,30,60);;
@@ -77,6 +81,7 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BAYOU_LOG,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BAYOU_WOOD,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAYOU_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.VERTICAL_BAYOU_PLANKS,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAYOU_PLANKS_CARVED,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAYOU_LEAVES,30,60);;
 
@@ -88,6 +93,7 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_WISTERIA_LOG,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_WISTERIA_WOOD,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.VERTICAL_WISTERIA_PLANKS,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_PLANKS_CARVED,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_LEAVES,30,60);;
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_FLOWERS_BLUE,30,60);;
@@ -103,9 +109,11 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BAOBAB_LOG,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_BAOBAB_WOOD,5,5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_PLANKS,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.VERTICAL_BAOBAB_PLANKS,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_PLANKS_CARVED,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_LEAVES,30,60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FUNGAL_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.VERTICAL_FUNGAL_PLANKS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FUNGAL_PLANKS_CARVED, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WHITE_FUNGAL_PLANKS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.LIGHT_GRAY_FUNGAL_PLANKS, 5, 20);

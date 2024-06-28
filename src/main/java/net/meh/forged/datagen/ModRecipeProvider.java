@@ -894,5 +894,69 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_fungal_planks", conditionsFromItem(ModBlocks.PINK_FUNGAL_PLANKS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PINK_FUNGAL_FENCE_GATE)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_MAPLE_PLANKS, 3)
+                .pattern("P")
+                .pattern("P")
+                .pattern("P")
+                    .input('P', ModBlocks.MAPLE_PLANKS)
+                .criterion("has_maple_planks", conditionsFromItem(ModBlocks.MAPLE_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_MAPLE_PLANKS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_BLEAK_PLANKS, 3)
+                .pattern("P")
+                .pattern("P")
+                .pattern("P")
+                .input('P', ModBlocks.BLEAK_PLANKS)
+                .criterion("has_bleak_planks", conditionsFromItem(ModBlocks.BLEAK_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_BLEAK_PLANKS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_FIR_PLANKS, 3)
+                .pattern("P")
+                .pattern("P")
+                .pattern("P")
+                .input('P', ModBlocks.FIR_PLANKS)
+                .criterion("has_fir_planks", conditionsFromItem(ModBlocks.FIR_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_FIR_PLANKS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_PALM_PLANKS, 3)
+                .pattern("P")
+                .pattern("P")
+                .pattern("P")
+                .input('P', ModBlocks.PALM_PLANKS)
+                .criterion("has_palm_planks", conditionsFromItem(ModBlocks.PALM_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_PALM_PLANKS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_BAYOU_PLANKS, 3)
+                .pattern("P")
+                .pattern("P")
+                .pattern("P")
+                .input('P', ModBlocks.BAYOU_PLANKS)
+                .criterion("has_bayou_planks", conditionsFromItem(ModBlocks.BAYOU_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_BAYOU_PLANKS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_WISTERIA_PLANKS, 3)
+                .pattern("P")
+                .pattern("P")
+                .pattern("P")
+                .input('P', ModBlocks.WISTERIA_PLANKS)
+                .criterion("has_wisteria_planks", conditionsFromItem(ModBlocks.WISTERIA_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_WISTERIA_PLANKS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_BAOBAB_PLANKS, 3)
+                .pattern("P")
+                .pattern("P")
+                .pattern("P")
+                .input('P', ModBlocks.BAOBAB_PLANKS)
+                .criterion("has_baobab_planks", conditionsFromItem(ModBlocks.BAOBAB_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_BAOBAB_PLANKS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_FUNGAL_PLANKS, 3)
+                .pattern("P")
+                .pattern("P")
+                .pattern("P")
+                .input('P', ModBlocks.FUNGAL_PLANKS)
+                .criterion("has_fungal_planks", conditionsFromItem(ModBlocks.FUNGAL_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_FUNGAL_PLANKS)));
+
     }
 }

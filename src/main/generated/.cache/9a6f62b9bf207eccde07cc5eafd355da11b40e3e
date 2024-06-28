@@ -1,4 +1,4 @@
-// 1.20.4	2024-06-27T21:02:08.9087442	ORForged/Tags for minecraft:block
+// 1.20.4	2024-06-28T17:55:58.5928329	ORForged/Tags for minecraft:block
 ce11229974eb7adf968068786afd6a4ead5cb9a1 data\minecraft\tags\blocks\needs_stone_tool.json
 5fc21b215b371ea7ef5c9c740d75a785119edec6 data\minecraft\tags\blocks\fences.json
 19185e06c3902ab204b8679b5da54d732a698afc data\minecraft\tags\blocks\needs_iron_tool.json
@@ -6,4 +6,4 @@ ce11229974eb7adf968068786afd6a4ead5cb9a1 data\minecraft\tags\blocks\needs_stone_
 66c0f674112a51e65fc417b476f2048d79830fb2 data\minecraft\tags\blocks\fence_gates.json
 46bdaa16bcad15aff1fd4a599264b2baccd1de48 data\minecraft\tags\blocks\mineable\hoe.json
 e4fe8880080995d2707487e1e01ac63417eed825 data\minecraft\tags\blocks\mineable\pickaxe.json
-14428f48f1c0192aa4eb8b569372cdf66a9f8d7c data\minecraft\tags\blocks\mineable\axe.json
+738207f13d5b03b141fba05ae928c1179797fc77 data\minecraft\tags\blocks\mineable\axe.json
