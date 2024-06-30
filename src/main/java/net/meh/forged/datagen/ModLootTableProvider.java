@@ -290,5 +290,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_FUNGAL_FENCE);
         addDrop(ModBlocks.PINK_FUNGAL_FENCE_GATE);
         addDrop(ModBlocks.PINK_FUNGAL_SLAB, slabDrops(ModBlocks.PINK_FUNGAL_SLAB));
+
     }
 }

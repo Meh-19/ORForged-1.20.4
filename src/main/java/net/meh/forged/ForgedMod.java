@@ -8,6 +8,7 @@ import net.meh.forged.block.ModBlocks;
 import net.meh.forged.datagen.ModRecipeProvider;
 import net.meh.forged.item.ModItemGroups;
 import net.meh.forged.item.ModItems;
+import net.meh.forged.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -132,5 +133,6 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAGENTA_FUNGAL_PLANKS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PINK_FUNGAL_PLANKS, 5, 20);
 
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
