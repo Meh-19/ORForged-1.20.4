@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLootTableProvider;
 import net.meh.forged.block.ModBlocks;
 import net.meh.forged.item.ModItems;
+import net.minecraft.block.Blocks;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public ModLootTableProvider(FabricDataOutput dataOutput) {
@@ -290,6 +291,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_FUNGAL_FENCE);
         addDrop(ModBlocks.PINK_FUNGAL_FENCE_GATE);
         addDrop(ModBlocks.PINK_FUNGAL_SLAB, slabDrops(ModBlocks.PINK_FUNGAL_SLAB));
+
+        addDrop(Blocks.SPAWNER);
 
     }
 }
