@@ -57,6 +57,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAPLE_BUTTON);
                         entries.add(ModBlocks.VERTICAL_MAPLE_PLANKS);
                         entries.add(ModBlocks.MAPLE_PLANKS_CARVED);
+                        entries.add(ModBlocks.MAPLE_BEAM);
                         entries.add(ModBlocks.ORANGE_MAPLE_LEAVES);
                         entries.add(ModBlocks.RED_MAPLE_LEAVES);
 
@@ -73,6 +74,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLEAK_BUTTON);
                         entries.add(ModBlocks.VERTICAL_BLEAK_PLANKS);
                         entries.add(ModBlocks.BLEAK_PLANKS_CARVED);
+                        entries.add(ModBlocks.BLEAK_BEAM);
                         entries.add(ModBlocks.BLEAK_LEAVES);
 
                         entries.add(ModBlocks.FIR_LOG);
@@ -88,6 +90,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FIR_BUTTON);
                         entries.add(ModBlocks.VERTICAL_FIR_PLANKS);
                         entries.add(ModBlocks.FIR_PLANKS_CARVED);
+                        entries.add(ModBlocks.FIR_BEAM);
                         entries.add(ModBlocks.GREEN_FIR_LEAVES);
                         entries.add(ModBlocks.ORANGE_FIR_LEAVES);
 
@@ -104,6 +107,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALM_BUTTON);
                         entries.add(ModBlocks.VERTICAL_PALM_PLANKS);
                         entries.add(ModBlocks.PALM_PLANKS_CARVED);
+                        entries.add(ModBlocks.PALM_BEAM);
                         entries.add(ModBlocks.PALM_CROWN);
                         entries.add(ModBlocks.PALM_LEAVES);
 
@@ -120,6 +124,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BAYOU_BUTTON);
                         entries.add(ModBlocks.VERTICAL_BAYOU_PLANKS);
                         entries.add(ModBlocks.BAYOU_PLANKS_CARVED);
+                        entries.add(ModBlocks.BAYOU_BEAM);
                         entries.add(ModBlocks.BAYOU_LEAVES);
 
                         entries.add(ModBlocks.WISTERIA_LOG);
@@ -135,6 +140,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WISTERIA_BUTTON);
                         entries.add(ModBlocks.VERTICAL_WISTERIA_PLANKS);
                         entries.add(ModBlocks.WISTERIA_PLANKS_CARVED);
+                        entries.add(ModBlocks.WISTERIA_BEAM);
                         entries.add(ModBlocks.WISTERIA_LEAVES);
                         entries.add(ModBlocks.WISTERIA_FLOWERS_BLUE);
                         entries.add(ModBlocks.WISTERIA_FLOWERS_PINK);
@@ -154,6 +160,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BAOBAB_BUTTON);
                         entries.add(ModBlocks.VERTICAL_BAOBAB_PLANKS);
                         entries.add(ModBlocks.BAOBAB_PLANKS_CARVED);
+                        entries.add(ModBlocks.BAOBAB_BEAM);
                         entries.add(ModBlocks.BAOBAB_LEAVES);
 
                         entries.add(ModBlocks.FUNGAL_PLANKS);
@@ -291,6 +298,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAGENTA_FUNGAL_BUTTON);
                         entries.add(ModBlocks.PINK_FUNGAL_BUTTON);
 
+                        entries.add(ModBlocks.OAK_BEAM);
+                        entries.add(ModBlocks.SPRUCE_BEAM);
+                        entries.add(ModBlocks.BIRCH_BEAM);
+                        entries.add(ModBlocks.JUNGLE_BEAM);
+                        entries.add(ModBlocks.ACACIA_BEAM);
+                        entries.add(ModBlocks.DARK_OAK_BEAM);
+                        entries.add(ModBlocks.MANGROVE_BEAM);
+                        entries.add(ModBlocks.CHERRY_BEAM);
+                        entries.add(ModBlocks.WARPED_BEAM);
+                        entries.add(ModBlocks.CRIMSON_BEAM);
 
                     }).build());
 

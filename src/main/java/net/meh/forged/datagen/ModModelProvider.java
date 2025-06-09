@@ -35,6 +35,7 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool maplePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAPLE_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAPLE_PLANKS_CARVED);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.VERTICAL_MAPLE_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAPLE_BEAM);
 
         maplePool.stairs(ModBlocks.MAPLE_STAIRS);
         maplePool.slab(ModBlocks.MAPLE_SLAB);
@@ -49,6 +50,8 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool bleakPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLEAK_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLEAK_PLANKS_CARVED);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.VERTICAL_BLEAK_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLEAK_BEAM);
+
 
         bleakPool.stairs(ModBlocks.BLEAK_STAIRS);
         bleakPool.slab(ModBlocks.BLEAK_SLAB);
@@ -64,6 +67,18 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool firPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FIR_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIR_PLANKS_CARVED);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.VERTICAL_FIR_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIR_BEAM);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OAK_BEAM);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SPRUCE_BEAM);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BIRCH_BEAM);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.JUNGLE_BEAM);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ACACIA_BEAM);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DARK_OAK_BEAM);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MANGROVE_BEAM);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHERRY_BEAM);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WARPED_BEAM);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRIMSON_BEAM);
 
         firPool.stairs(ModBlocks.FIR_STAIRS);
         firPool.slab(ModBlocks.FIR_SLAB);
@@ -78,6 +93,7 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool palmPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PALM_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALM_PLANKS_CARVED);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.VERTICAL_PALM_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALM_BEAM);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALM_CROWN);
 
         palmPool.stairs(ModBlocks.PALM_STAIRS);
@@ -93,6 +109,7 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool bayouPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BAYOU_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BAYOU_PLANKS_CARVED);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.VERTICAL_BAYOU_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BAYOU_BEAM);
 
         bayouPool.stairs(ModBlocks.BAYOU_STAIRS);
         bayouPool.slab(ModBlocks.BAYOU_SLAB);
@@ -111,6 +128,7 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool wisteriaPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WISTERIA_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WISTERIA_PLANKS_CARVED);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.VERTICAL_WISTERIA_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WISTERIA_BEAM);
 
         wisteriaPool.stairs(ModBlocks.WISTERIA_STAIRS);
         wisteriaPool.slab(ModBlocks.WISTERIA_SLAB);
@@ -125,6 +143,7 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool baobabPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BAOBAB_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BAOBAB_PLANKS_CARVED);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.VERTICAL_BAOBAB_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BAOBAB_BEAM);
 
         baobabPool.stairs(ModBlocks.BAOBAB_STAIRS);
         baobabPool.slab(ModBlocks.BAOBAB_SLAB);

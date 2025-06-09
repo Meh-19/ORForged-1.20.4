@@ -546,6 +546,40 @@ public class ModBlocks {
     public static final Block PINK_FUNGAL_FENCE_GATE = registerBlock("pink_fungal_fence_gate",
             new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
+    public static final Block OAK_BEAM = registerBlock("oak_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block SPRUCE_BEAM = registerBlock("spruce_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block BIRCH_BEAM = registerBlock("birch_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block JUNGLE_BEAM = registerBlock("jungle_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block ACACIA_BEAM = registerBlock("acacia_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block DARK_OAK_BEAM = registerBlock("dark_oak_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block MANGROVE_BEAM = registerBlock("mangrove_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block CHERRY_BEAM = registerBlock("cherry_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block MAPLE_BEAM = registerBlock("maple_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block BLEAK_BEAM = registerBlock("bleak_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block FIR_BEAM = registerBlock("fir_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block PALM_BEAM = registerBlock("palm_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block BAYOU_BEAM = registerBlock("bayou_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block WISTERIA_BEAM = registerBlock("wisteria_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block BAOBAB_BEAM = registerBlock("baobab_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block CRIMSON_BEAM = registerBlock("crimson_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+    public static final Block WARPED_BEAM = registerBlock("warped_beam",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(PLATINUM_BLOCK);

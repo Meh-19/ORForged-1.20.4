@@ -5,10 +5,8 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.meh.forged.block.ModBlocks;
-import net.meh.forged.datagen.ModRecipeProvider;
 import net.meh.forged.item.ModItemGroups;
 import net.meh.forged.item.ModItems;
-import net.meh.forged.util.ModLootTableModifiers;
 import net.meh.forged.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -34,6 +32,7 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_PLANKS,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.VERTICAL_MAPLE_PLANKS,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_PLANKS_CARVED,5,20);
+
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.RED_MAPLE_LEAVES,30,60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.ORANGE_MAPLE_LEAVES,30,60);
 
@@ -134,8 +133,25 @@ public class ForgedMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAGENTA_FUNGAL_PLANKS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PINK_FUNGAL_PLANKS, 5, 20);
 
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_BEAM,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLEAK_BEAM,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.FIR_BEAM,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_BEAM,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAYOU_BEAM,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WISTERIA_BEAM,5,5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAOBAB_BEAM,5,5);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.OAK_BEAM, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SPRUCE_BEAM, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BIRCH_BEAM, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.JUNGLE_BEAM, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.ACACIA_BEAM, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DARK_OAK_BEAM, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MANGROVE_BEAM, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHERRY_BEAM, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WARPED_BEAM, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CRIMSON_BEAM, 5, 5);
 		ModWorldGeneration.generateModWorldGen();
 
-		ModLootTableModifiers.modifyLootTables();
 	}
 }

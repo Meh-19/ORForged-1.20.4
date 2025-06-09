@@ -902,6 +902,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_maple_planks", conditionsFromItem(ModBlocks.MAPLE_PLANKS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_MAPLE_PLANKS)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAPLE_BEAM, 2)
+                .pattern("PP")
+                .input('P', ModBlocks.MAPLE_LOG)
+                .criterion("has_maple_log", conditionsFromItem(ModBlocks.MAPLE_LOG))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MAPLE_BEAM)));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_BLEAK_PLANKS, 3)
                 .pattern("P")
                 .pattern("P")
@@ -957,6 +963,127 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModBlocks.FUNGAL_PLANKS)
                 .criterion("has_fungal_planks", conditionsFromItem(ModBlocks.FUNGAL_PLANKS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_FUNGAL_PLANKS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLEAK_BEAM, 2)
+                .pattern("PP")
+                .input('P', ModBlocks.BLEAK_LOG)
+                .criterion("has_bleak_log", conditionsFromItem(ModBlocks.BLEAK_LOG))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BLEAK_BEAM)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIR_BEAM, 2)
+                .pattern("PP")
+                .input('P', ModBlocks.FIR_LOG)
+                .criterion("has_fir_log", conditionsFromItem(ModBlocks.FIR_LOG))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FIR_BEAM)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PALM_BEAM, 2)
+                .pattern("PP")
+                .input('P', ModBlocks.PALM_LOG)
+                .criterion("has_palm_log", conditionsFromItem(ModBlocks.PALM_LOG))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PALM_BEAM)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BAYOU_BEAM, 2)
+                .pattern("PP")
+                .input('P', ModBlocks.BAYOU_LOG)
+                .criterion("has_bayou_log", conditionsFromItem(ModBlocks.BAYOU_LOG))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BAYOU_BEAM)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WISTERIA_BEAM, 2)
+                .pattern("PP")
+                .input('P', ModBlocks.WISTERIA_LOG)
+                .criterion("has_wisteria_log", conditionsFromItem(ModBlocks.WISTERIA_LOG))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.WISTERIA_BEAM)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BAOBAB_BEAM, 2)
+                .pattern("PP")
+                .input('P', ModBlocks.BAOBAB_LOG)
+                .criterion("has_baobab_log", conditionsFromItem(ModBlocks.BAOBAB_LOG))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BAOBAB_BEAM)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Blocks.OAK_PLANKS, 4)
+                .input(ModBlocks.OAK_BEAM)
+                .criterion("has_oak_beam", conditionsFromItem(ModBlocks.OAK_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(Blocks.OAK_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Blocks.SPRUCE_PLANKS, 4)
+                .input(ModBlocks.SPRUCE_BEAM)
+                .criterion("has_spruce_beam", conditionsFromItem(ModBlocks.SPRUCE_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(Blocks.SPRUCE_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Blocks.BIRCH_PLANKS, 4)
+                .input(ModBlocks.BIRCH_BEAM)
+                .criterion("has_birch_beam", conditionsFromItem(ModBlocks.BIRCH_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(Blocks.BIRCH_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Blocks.JUNGLE_PLANKS, 4)
+                .input(ModBlocks.JUNGLE_BEAM)
+                .criterion("has_jungle_beam", conditionsFromItem(ModBlocks.JUNGLE_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(Blocks.JUNGLE_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Blocks.ACACIA_PLANKS, 4)
+                .input(ModBlocks.ACACIA_BEAM)
+                .criterion("has_acacia_beam", conditionsFromItem(ModBlocks.ACACIA_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(Blocks.ACACIA_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Blocks.DARK_OAK_PLANKS, 4)
+                .input(ModBlocks.DARK_OAK_BEAM)
+                .criterion("has_dark_oak_beam", conditionsFromItem(ModBlocks.DARK_OAK_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(Blocks.DARK_OAK_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Blocks.MANGROVE_PLANKS, 4)
+                .input(ModBlocks.MANGROVE_BEAM)
+                .criterion("has_mangrove_beam", conditionsFromItem(ModBlocks.MANGROVE_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(Blocks.MANGROVE_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Blocks.CHERRY_PLANKS, 4)
+                .input(ModBlocks.CHERRY_BEAM)
+                .criterion("has_cherry_beam", conditionsFromItem(ModBlocks.CHERRY_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(Blocks.CHERRY_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_PLANKS, 4)
+                .input(ModBlocks.WARPED_BEAM)
+                .criterion("has_warped_beam", conditionsFromItem(ModBlocks.WARPED_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(Blocks.WARPED_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_PLANKS, 4)
+                .input(ModBlocks.CRIMSON_BEAM)
+                .criterion("has_crimson_beam", conditionsFromItem(ModBlocks.CRIMSON_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(Blocks.CRIMSON_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAPLE_PLANKS, 4)
+                .input(ModBlocks.MAPLE_BEAM)
+                .criterion("has_maple_beam", conditionsFromItem(ModBlocks.MAPLE_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MAPLE_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLEAK_PLANKS, 4)
+                .input(ModBlocks.BLEAK_BEAM)
+                .criterion("has_bleak_beam", conditionsFromItem(ModBlocks.BLEAK_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BLEAK_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIR_PLANKS, 4)
+                .input(ModBlocks.FIR_BEAM)
+                .criterion("has_fir_beam", conditionsFromItem(ModBlocks.FIR_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FIR_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PALM_PLANKS, 4)
+                .input(ModBlocks.PALM_BEAM)
+                .criterion("has_palm_beam", conditionsFromItem(ModBlocks.PALM_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PALM_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BAYOU_PLANKS, 4)
+                .input(ModBlocks.BAYOU_BEAM)
+                .criterion("has_bayou_beam", conditionsFromItem(ModBlocks.BAYOU_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BAYOU_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WISTERIA_PLANKS, 4)
+                .input(ModBlocks.WISTERIA_BEAM)
+                .criterion("has_wisteria_beam", conditionsFromItem(ModBlocks.WISTERIA_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.WISTERIA_PLANKS)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BAOBAB_PLANKS, 4)
+                .input(ModBlocks.BAOBAB_BEAM)
+                .criterion("has_baobab_beam", conditionsFromItem(ModBlocks.BAOBAB_BEAM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BAOBAB_PLANKS)));
 
     }
 }

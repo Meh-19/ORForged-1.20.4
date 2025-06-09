@@ -28,6 +28,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_ORE, oreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY));
         addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, oreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RUBY));
 
+        addDrop(ModBlocks.OAK_BEAM);
+        addDrop(ModBlocks.SPRUCE_BEAM);
+        addDrop(ModBlocks.BIRCH_BEAM);
+        addDrop(ModBlocks.JUNGLE_BEAM);
+        addDrop(ModBlocks.ACACIA_BEAM);
+        addDrop(ModBlocks.DARK_OAK_BEAM);
+        addDrop(ModBlocks.MANGROVE_BEAM);
+        addDrop(ModBlocks.CHERRY_BEAM);
+        addDrop(ModBlocks.WARPED_BEAM);
+        addDrop(ModBlocks.CRIMSON_BEAM);
+
         addDrop(ModBlocks.MAPLE_LOG);
         addDrop(ModBlocks.STRIPPED_MAPLE_LOG);
         addDrop(ModBlocks.MAPLE_WOOD);
@@ -35,6 +46,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MAPLE_PLANKS);
         addDrop(ModBlocks.VERTICAL_MAPLE_PLANKS);
         addDrop(ModBlocks.MAPLE_PLANKS_CARVED);
+        addDrop(ModBlocks.MAPLE_BEAM);
+
 
         addDrop(ModBlocks.MAPLE_STAIRS);
         addDrop(ModBlocks.MAPLE_BUTTON);
@@ -53,6 +66,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLEAK_PLANKS);
         addDrop(ModBlocks.VERTICAL_BLEAK_PLANKS);
         addDrop(ModBlocks.BLEAK_PLANKS_CARVED);
+        addDrop(ModBlocks.BLEAK_BEAM);
 
         addDrop(ModBlocks.BLEAK_STAIRS);
         addDrop(ModBlocks.BLEAK_BUTTON);
@@ -70,6 +84,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FIR_PLANKS);
         addDrop(ModBlocks.VERTICAL_FIR_PLANKS);
         addDrop(ModBlocks.FIR_PLANKS_CARVED);
+        addDrop(ModBlocks.FIR_BEAM);
 
         addDrop(ModBlocks.FIR_STAIRS);
         addDrop(ModBlocks.FIR_BUTTON);
@@ -88,6 +103,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PALM_PLANKS);
         addDrop(ModBlocks.VERTICAL_PALM_PLANKS);
         addDrop(ModBlocks.PALM_PLANKS_CARVED);
+        addDrop(ModBlocks.PALM_BEAM);
         addDrop(ModBlocks.PALM_CROWN);
 
         addDrop(ModBlocks.PALM_STAIRS);
@@ -106,6 +122,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BAYOU_PLANKS);
         addDrop(ModBlocks.VERTICAL_BAYOU_PLANKS);
         addDrop(ModBlocks.BAYOU_PLANKS_CARVED);
+        addDrop(ModBlocks.BAYOU_BEAM);
 
         addDrop(ModBlocks.BAYOU_STAIRS);
         addDrop(ModBlocks.BAYOU_BUTTON);
@@ -123,6 +140,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WISTERIA_PLANKS);
         addDrop(ModBlocks.VERTICAL_WISTERIA_PLANKS);
         addDrop(ModBlocks.WISTERIA_PLANKS_CARVED);
+        addDrop(ModBlocks.WISTERIA_BEAM);
 
         addDrop(ModBlocks.WISTERIA_STAIRS);
         addDrop(ModBlocks.WISTERIA_BUTTON);
@@ -144,6 +162,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BAOBAB_PLANKS);
         addDrop(ModBlocks.VERTICAL_BAOBAB_PLANKS);
         addDrop(ModBlocks.BAOBAB_PLANKS_CARVED);
+        addDrop(ModBlocks.BAOBAB_BEAM);
 
         addDrop(ModBlocks.BAOBAB_STAIRS);
         addDrop(ModBlocks.BAOBAB_BUTTON);
